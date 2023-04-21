@@ -6,9 +6,6 @@ import logging
 logging.getLogger().setLevel(logging.INFO)
 
 
-# import os
-# os.environ["OPENAI_API_KEY"] = "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"
-
 def set_env():
     config = json.load(open("./env_config.json", 'r', encoding='utf-8'))
     logging.info(f"load config successfully")

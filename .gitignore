@@ -131,3 +131,7 @@ dmypy.json
 .idea
 hf-spaces/
 etc/
+
+# envrionment or API_KEY
+/openai_azure_engine.json
+env_config.json
