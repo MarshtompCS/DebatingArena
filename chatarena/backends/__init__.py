@@ -6,6 +6,7 @@ from .cohere import CohereAIChat
 from .human import Human
 from .hf_transformers import TransformersConversational
 from .anthropic import Claude
+from .azure_openai import AzureOpenAIChat
 
 ALL_BACKENDS = [
     Human,
@@ -13,6 +14,7 @@ ALL_BACKENDS = [
     CohereAIChat,
     TransformersConversational,
     Claude,
+    AzureOpenAIChat,
 ]
 
 BACKEND_REGISTRY = {backend.type_name: backend for backend in ALL_BACKENDS}

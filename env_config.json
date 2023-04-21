@@ -1,0 +1,17 @@
+{
+  "use_openai": true,
+  "use_azure": true,
+  "azure_openai": {
+    "api_type": "azure",
+    "api_base": "https://ai-lab-openai.openai.azure.com/",
+    "api_key": "45769099f37a4c02b7b3f79484acf347",
+    "Completion_api_version": "2022-12-01",
+    "ChatCompletion_api_version": "2023-03-15-preview",
+    "engine": "gpt-35-turbo"
+  },
+  "openai": {
+    "api_key": "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",
+    "api_type": "open_ai",
+    "api_base": "https://api.openai.com/v1"
+  }
+}
