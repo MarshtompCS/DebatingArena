@@ -36,24 +36,37 @@ class OpenAIChat(IntelligenceBackend):
     type_name = "openai-chat"
 
     def __init__(self, temperature: float = DEFAULT_TEMPERATURE, max_tokens: int = DEFAULT_MAX_TOKENS,
-                 model: str = DEFAULT_MODEL, **kwargs):
+                 model: str = DEFAULT_MODEL, use_azure=False, **kwargs):
         assert is_openai_available, "openai package is not installed or the API key is not set"
         super().__init__(temperature=temperature, max_tokens=max_tokens, model=model, **kwargs)
 
         self.temperature = temperature
         self.max_tokens = max_tokens
         self.model = model
+        self.use_azure = use_azure
 
     @retry(stop=stop_after_attempt(6), wait=wait_random_exponential(min=1, max=60))
     def _get_response(self, messages):
-        completion = openai.ChatCompletion.create(
-            model=self.model,
-            messages=messages,
-            temperature=self.temperature,
-            max_tokens=self.max_tokens,
-            stop=STOP
-        )
 
+        if self.use_azure:
+            # if we use azure-openai:
+            # 1. the model name is "gpt-35-turbo" (but not "gpt-3.5-turbo")
+            # 2. use engine (but not model)
+            completion = openai.ChatCompletion.create(
+                engine=self.model,
+                messages=messages,
+                temperature=self.temperature,
+                max_tokens=self.max_tokens,
+                stop=STOP
+            )
+        else:
+            completion = openai.ChatCompletion.create(
+                model=self.model,
+                messages=messages,
+                temperature=self.temperature,
+                max_tokens=self.max_tokens,
+                stop=STOP
+            )
         response = completion.choices[0]['message']['content']
         response = response.strip()
         return response
