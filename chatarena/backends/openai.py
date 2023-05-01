@@ -13,7 +13,7 @@ except ImportError:
     is_openai_available = False
     logging.warning("openai package is not installed")
 else:
-    openai.api_key = os.environ.get("OPENAI_API_KEY")
+    openai.api_key = os.environ.get("OPENAI_API_KEY", openai.api_key)
     if openai.api_key is None:
         logging.warning("OpenAI API key is not set. Please set the environment variable OPENAI_API_KEY")
         is_openai_available = False
@@ -25,7 +25,7 @@ DEFAULT_TEMPERATURE = 0.7
 DEFAULT_MAX_TOKENS = 256
 DEFAULT_MODEL = "gpt-3.5-turbo"
 
-STOP = ("<EOS>", "[EOS]", "(EOS)")  # End of sentence token
+STOP = ("<EOS>", "[EOS]", "(EOS)", "<|im_end|>")  # End of sentence token
 
 
 class OpenAIChat(IntelligenceBackend):
