@@ -1,7 +1,7 @@
 import chatarena
-from chatarena.agent import Moderator, Player
+from chatarena.agent import Moderator, Player, DebateModerator
 from chatarena.backends import OpenAIChat
-from chatarena.environments.conversation import Conversation, ModeratedConversation
+from chatarena.environments.conversation import Conversation, ModeratedConversation, ModeratedDebate
 from chatarena.arena import Arena
 import openai
 from data_process import load_cnndailymail_eval, load_topicchat_eval
@@ -9,9 +9,7 @@ import json
 
 
 # TODO
-# fix BUGs of moderator speaking
-# design Action choices for agents, e.g., give up, agree the other side, ...
-
+# add instructions: do not repeat, be concise, ...
 
 def main():
     item = load_topicchat_eval()[0]
@@ -26,23 +24,32 @@ def main():
     negative_player = topic_chat_prompt["negative_player"]
     moderator_player = topic_chat_prompt["moderator_player"]
     terminate_prompt = topic_chat_prompt["terminate_prompt"]
+    summarize_prompt = topic_chat_prompt["summarize_prompt"]
+    engagingness_evaluation = topic_chat_prompt["engagingness_evaluation"]
     player1 = Player(name="affirmative", backend=OpenAIChat(use_azure=True, model="gpt-35-turbo"),
                      role_desc=affirmative_player, global_prompt=global_prompt)
     player2 = Player(name="negative", backend=OpenAIChat(use_azure=True, model="gpt-35-turbo"),
                      role_desc=negative_player, global_prompt=global_prompt)
-    moderator = Moderator(backend=OpenAIChat(use_azure=True, model="gpt-35-turbo"), role_desc=moderator_player,
-                          terminal_condition=terminate_prompt, global_prompt=global_prompt)
-    moderator_env = ModeratedConversation(
+    moderator = DebateModerator(backend=OpenAIChat(use_azure=True, model="gpt-35-turbo"), role_desc=moderator_player,
+                                terminal_condition=terminate_prompt, global_prompt=global_prompt,
+                                engagingness_evaluation=engagingness_evaluation, summarize_prompt=summarize_prompt)
+    moderator_env = ModeratedDebate(
         player_names=["affirmative", "negative"],
         moderator=moderator, parallel=False,
-        moderator_visibility=[], moderator_period="round"
+        moderator_visibility=[], moderator_period="round", max_debate_turns=6
     )
 
     debate_arena = Arena(players=[player1, player2],
                          environment=moderator_env,
                          global_prompt=global_prompt)
 
-    debate_arena.run(num_steps=10)
+    for step in range(16):
+        print(f"step-{step} start.")
+        timestep = debate_arena.step()
+        print(f"step-{step} end.")
+        if timestep.terminal:
+            break
+
     debate_arena.save_history("./tmp.json")
 
 

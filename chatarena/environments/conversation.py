@@ -1,8 +1,11 @@
+import logging
 from typing import List, Union
+
+from tenacity import RetryError
 
 from .base import TimeStep, Environment
 from ..message import Message, MessagePool
-from ..agent import Moderator, SIGNAL_END_OF_CONVERSATION
+from ..agent import Moderator, SIGNAL_END_OF_CONVERSATION, DebateModerator
 from ..config import EnvironmentConfig, AgentConfig
 
 
@@ -144,6 +147,89 @@ class ModeratedConversation(Conversation):
         # Update the counters
         if not self.parallel or self._next_player_idx == 0:
             self._current_turn += 1
+
+        timestep = TimeStep(observation=self.get_observation(),
+                            reward=self.get_zero_rewards(),
+                            terminal=terminal)  # Return all the messages
+        return timestep
+
+
+class ModeratedDebate(Conversation):
+    """
+    Turn-based fully observable conversation environment.
+    Next speaker order is either parallel or round-robin.
+    Moderator is a special agent that can see all messages and can decide whether the conversation is over.
+    """
+
+    type_name = "moderated_debate"
+
+    def __init__(self, player_names: List[str], moderator: Union[DebateModerator, AgentConfig],
+                 parallel: bool = False, moderator_visibility="all", moderator_period="turn",
+                 max_debate_turns=3, **kwargs):
+
+        super().__init__(player_names=player_names, parallel=parallel, **kwargs)
+
+        if isinstance(moderator, AgentConfig):
+            moderator_config = moderator
+            moderator = Moderator.from_config(moderator_config)
+        elif not isinstance(moderator, DebateModerator):
+            raise ValueError("moderator must be either an AgentConfig or a Moderator instance.")
+
+        self.moderator = moderator
+        self.moderator_visibility = moderator_visibility
+        self.moderator_period = moderator_period
+        self.max_debate_turns = max_debate_turns
+
+    def to_config(self) -> EnvironmentConfig:
+        # This environment contains some speical config arguments that needs to be handle specially
+        return EnvironmentConfig(env_type=self.type_name, player_names=self.player_names, parallel=self.parallel,
+                                 moderator=self.moderator.to_config(), moderator_visibility=self.moderator_visibility,
+                                 moderator_period=self.moderator_period)
+
+    def is_terminal(self) -> bool:
+        if self._current_turn >= self.max_debate_turns:
+            return True
+        return False
+
+    def step(self, player_name: str, action: str) -> TimeStep:
+        """
+        step function that is called by the arena
+        Args:
+            player_name: the name of the player that takes the action
+            action: the action that the agents wants to take
+        """
+        message = Message(agent_name=player_name, content=action, turn=self._current_turn)
+        self.message_pool.append_message(message)
+
+        # Round-robin order for the next player
+        self._next_player_idx = (self._next_player_idx + 1) % self.num_players
+        terminal = False
+        if self.moderator_period == "turn" or \
+                (self.moderator_period == "round" and self._next_player_idx == 0):
+            # Moderator's turn
+            moderator_history = self.message_pool.get_all_messages()
+            moderator_summary = self.moderator.summarize_round(moderator_history)
+            # 1. summarize the debate
+            moderator_message = Message(agent_name=self.moderator.name,
+                                        content=moderator_summary,
+                                        turn=self._current_turn,
+                                        visible_to=self.moderator_visibility)
+            self.message_pool.append_message(moderator_message)
+            # 2. terminate ?
+            terminal = terminal or self.moderator.is_terminal(moderator_history)
+        # Update the counters
+        if not self.parallel or self._next_player_idx == 0:
+            self._current_turn += 1
+            terminal = terminal or self.is_terminal()
+
+        if terminal:
+            moderator_history = self.message_pool.get_all_messages()
+            moderator_evaluation = self.moderator.evaluate(moderator_history)
+            moderator_message = Message(agent_name=self.moderator.name,
+                                        content=moderator_evaluation,
+                                        turn=self._current_turn,
+                                        visible_to=self.moderator_visibility)
+            self.message_pool.append_message(moderator_message)
 
         timestep = TimeStep(observation=self.get_observation(),
                             reward=self.get_zero_rewards(),
