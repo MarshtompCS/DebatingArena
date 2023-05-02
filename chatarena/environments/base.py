@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from typing import List, Dict
 from abc import abstractmethod
 
-from ..message import Message
+from ..message import Message, MessagePool
 from ..utils import AttributedDict
 from ..config import Configurable, EnvironmentConfig
 
@@ -24,6 +24,7 @@ class Environment(Configurable):
     def __init__(self, player_names: List[str], **kwargs):
         super().__init__(player_names=player_names, **kwargs)  # registers the arguments with Configurable
         self.player_names = player_names
+        self.message_pool: MessagePool = None
 
     def __init_subclass__(cls, **kwargs):
         # check if the subclass has the required attributes

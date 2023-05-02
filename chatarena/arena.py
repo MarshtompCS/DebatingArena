@@ -150,7 +150,7 @@ class Arena:
         config = self.to_config()
         config.save(path)
 
-    def save_history(self, path: str):
+    def save_history(self, path: str, return_dict=False):
         """
         save the history of the game to a file
         Supports csv and json formats.
@@ -186,8 +186,10 @@ class Arena:
                     "msg_type": message.msg_type,
                 }
                 message_rows.append(message_row)
-
-            with open(path, "w") as f:
-                json.dump(message_rows, f, indent=4)
+            if return_dict:
+                return message_rows
+            else:
+                with open(path, "w") as f:
+                    json.dump(message_rows, f, indent=4)
         else:
             raise ValueError("Invalid file format")

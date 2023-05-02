@@ -1,0 +1,1 @@
+{"predict_scores": [3, 1], "target_scores": [3.0, 2.3333333333], "predict_cnt": {"0": 0, "1": 1, "2": 0, "error": 0}, "target_round_cnt": {"0": 0, "1": 0, "2": 1}, "spearmanr_score": 0.9999999999999999, "spearmanr_pvalue": NaN, "kendalltau_score": 1.0, "kendalltau_pvalue": 1.0}

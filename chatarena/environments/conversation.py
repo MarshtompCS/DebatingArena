@@ -208,13 +208,13 @@ class ModeratedDebate(Conversation):
                 (self.moderator_period == "round" and self._next_player_idx == 0):
             # Moderator's turn
             moderator_history = self.message_pool.get_all_messages()
-            moderator_summary = self.moderator.summarize_round(moderator_history)
-            # 1. summarize the debate
-            moderator_message = Message(agent_name=self.moderator.name,
-                                        content=moderator_summary,
-                                        turn=self._current_turn,
-                                        visible_to=self.moderator_visibility)
-            self.message_pool.append_message(moderator_message)
+            # moderator_summary = self.moderator.summarize_round(moderator_history)
+            # # 1. summarize the debate
+            # moderator_message = Message(agent_name=self.moderator.name,
+            #                             content=moderator_summary,
+            #                             turn=self._current_turn,
+            #                             visible_to=self.moderator_visibility)
+            # self.message_pool.append_message(moderator_message)
             # 2. terminate ?
             terminal = terminal or self.moderator.is_terminal(moderator_history)
         # Update the counters
@@ -223,6 +223,15 @@ class ModeratedDebate(Conversation):
             terminal = terminal or self.is_terminal()
 
         if terminal:
+            moderator_history = self.message_pool.get_all_messages()
+            moderator_summary = self.moderator.summarize_round(moderator_history)
+            # 1. summarize the debate
+            moderator_message = Message(agent_name=self.moderator.name,
+                                        content=moderator_summary,
+                                        turn=self._current_turn,
+                                        visible_to=self.moderator_visibility)
+            self.message_pool.append_message(moderator_message)
+
             moderator_history = self.message_pool.get_all_messages()
             moderator_evaluation = self.moderator.evaluate(moderator_history)
             moderator_message = Message(agent_name=self.moderator.name,
