@@ -10,7 +10,7 @@
     "engine": "gpt-35-turbo"
   },
   "openai": {
-    "api_key": "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",
+    "api_key": "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",
     "api_type": "open_ai",
     "api_base": "https://api.openai.com/v1"
   }

@@ -1,5 +1,4 @@
 import logging
-
 import chatarena
 from chatarena.agent import Moderator, Player, DebateModerator
 from chatarena.backends import OpenAIChat
@@ -8,38 +7,9 @@ from chatarena.arena import Arena
 import openai
 from data_process import load_cnndailymail_eval, load_topicchat_eval
 import json
-from scipy import stats
 from tqdm import tqdm
 from collections import Counter
-import re
-
-
-def calculate_correlation_scores(data1, data2):
-    spearmanr_res = stats.spearmanr(data1, data2)
-    spearmanr_score, spearmanr_pvalue = spearmanr_res.statistic, spearmanr_res.pvalue
-    kendalltau_res = stats.kendalltau(data1, data2)
-    kendalltau_score, kendalltau_pvalue = kendalltau_res.statistic, kendalltau_res.pvalue
-    return {"spearmanr_score": spearmanr_score, "spearmanr_pvalue": spearmanr_pvalue,
-            "kendalltau_score": kendalltau_score, "kendalltau_pvalue": kendalltau_pvalue}
-
-
-def get_score(sentence: str, min_valid=1, max_valid=3):  # find integer score
-    score = None
-    score_info = "error"
-    if sentence.isdigit():
-        score = int(sentence)
-        if not (min_valid <= int(score) <= max_valid):
-            score = None
-            score_info = "certain"
-    else:
-        score_pattern = re.compile(r'\d+\.?\d*')
-        candidates = score_pattern.findall(sentence)
-        for candidate in reversed(candidates):
-            if min_valid <= int(candidate) <= max_valid:
-                score = int(candidate)
-                score_info = "select last"
-                break
-    return score, score_info
+from utils import calculate_correlation_scores, get_score
 
 
 def main():
@@ -123,7 +93,7 @@ def run_debate(item, max_debate_turns=11, max_tokens=512):
     engagingness_evaluation = topic_chat_prompt["engagingness_evaluation"]
 
     openai_kwargs = {"use_azure": True, "model": "gpt-35-turbo",
-                     "max_tokens": max_tokens, "temperature": 0.0}
+                     "max_tokens": max_tokens, "temperature": 0.7}
 
     player1 = Player(name="Affirmative", backend=OpenAIChat(**openai_kwargs),
                      role_desc=affirmative_player, global_prompt=global_prompt)
@@ -160,24 +130,3 @@ def run_debate(item, max_debate_turns=11, max_tokens=512):
 
 if __name__ == '__main__':
     main()
-"""
-Global
-这是一个评估对话系统的回复质量的辩论场，参与辩论的双方要根据“对话历史”，分别从正面和反面两个角度理性地评价给定“回复”。
-回复的质量由一致性、流畅性、吸引性三个方面决定。
-一致性表示：
-流畅性表示：
-吸引性表示：
-
-Positive
-你是正方，因此你要尽量找出这个“回复”的优点，并阐述理由。
-你首先进行发言，随后你需要有理有据地反驳反方发言的不合理之处。
-
-Negative
-你是反方，因此你要尽量找出这个“回复”的缺点，并阐述理由。
-正方先进行发言，你需要有理有据地反驳正方发言的不合理之处。
-
-Moderator
-你是这场辩论的裁判员。你需要公正地总结正方双反的发言并指出发言的合理和不合理之处。最后，你需要对“回复”的优劣进行打分，分数的取值范围是0-5。
-辩论的总结：[hold]
-回复的分数：
-"""
