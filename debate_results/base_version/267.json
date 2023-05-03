@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response presented by the affirmative side is highly engaging. It creates a sense of curiosity and intrigue that prompts the listener to want to know more about the topic of discussion. The response is unexpected, and it adds a fresh perspective to the conversation, making it more interesting and engaging.\n\nFurthermore, the response is thought-provoking, as it raises questions about the popularity of bowling and football during the 1960s. It is an excellent conversation starter that is likely to generate more discussion and debate. The affirmative side believes that the response is compelling and has the potential to keep the conversation going, providing an opportunity for all parties to share their perspectives and opinions.\n\nThe negative side may argue that the response is confusing and fails to address the topic at hand. However, we believe that the response is highly engaging and adds value to the conversation. It is not necessary for a response to be directly related to the topic at hand to be engaging. In fact, sometimes the best responses are those that take the conversation in a new and exciting direction.\n\nIn conclusion, the response presented by the affirmative side is highly engaging, thought-provoking, and adds value to the conversation. We believe that it has the potential to keep the discussion going and create a lively and interesting debate. We urge the moderator to allow the conversation to continue, and we look forward to hearing more from both sides.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": Ladies and gentlemen, while we appreciate the effort put forth by the affirmative side, we must point out that the response presented is not engaging, but rather confusing and irrelevant. The response fails to address the conversation's topic and instead brings up a completely unrelated fact about the popularity of bowling in the 1960s.\n\nThe response does not add any value to the conversation and instead derails it, making it difficult to bring the conversation back to the original topic. The listener is left wondering how the response is related to the conversation, and it may lead to frustration and disinterest.\n\nMoreover, the response is not thought-provoking but rather nonsensical. The statement, \"...since the 1960s isn't as popular as bowling is in the 1960s\" is contradictory and confusing, making it hard to follow the speaker's train of thought. This type of response does not stimulate conversation or encourage further discussion.\n\nIn conclusion, the response presented by the affirmative side is not engaging, thought-provoking, or valuable to the conversation. It is confusing, irrelevant, and nonsensical. We urge the moderator to move the conversation back to the original topic and not waste any more time on this unengaging response.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "Both sides have presented their opinions on the engaging level of the potential response. The affirmative side believes that the response is highly engaging, thought-provoking, and adds value to the conversation. On the other hand, the negative side argues that the response is confusing, irrelevant, and not valuable to the conversation.\n\nAfter considering both sides, it is clear that the negative side has won the debate. The potential response presented by the affirmative side is not engaging as it fails to address the topic at hand, lacks coherence, and is nonsensical. The response does not add any value to the conversation, and it is more likely to confuse and frustrate the listener than engage them. Therefore, the negative side's argument that the response is unengaging and nonsensical is stronger, and they have won the debate.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "do you like football ? \n i love it . do you know what color is the u of iowa visitor locker room ? \n yes it is pink but i a not sure why they chose that color \n i wonder if it is supposed to have some effect on them \n i wonder too . bowling was more popular than football in the 60s \n\n",
+        "topic_chat_fact": "in the 1960 's top bowlers made twice as much as top football stars\n",
+        "topic_chat_response": "that is so weird . i guess it makes sense since the 1960s is n't as popular as bowling is in the 1960s",
+        "human_score": 1.3333333333,
+        "predict_score": 1,
+        "predict_score_info": "certain"
+    }
+]

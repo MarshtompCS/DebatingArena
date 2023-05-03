@@ -1,0 +1,58 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, I strongly believe that the response \"qbs are often very smart. Brad Johnson is the only qb in history to throw a touchdown pass to himself! Imagine the brains it takes to pull that off.\" is highly engaging. Firstly, it catches the attention of the audience by highlighting a unique fact about Brad Johnson that is not commonly known. Secondly, it creates a sense of wonder and amazement by inviting the listeners to imagine the intelligence required to achieve such a feat. This not only keeps the audience engaged but also encourages them to think critically about the topic at hand. Moreover, the response adds value to the conversation by providing relevant information that is related to the previous topic of discussion which was about quarterbacks. In conclusion, the response is highly engaging as it not only piques the curiosity of the audience but also adds value to the conversation.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While I agree that the fact about Brad Johnson is interesting, I do not think that the response is particularly engaging. Firstly, the response does not contribute anything new to the conversation. It simply restates a fact that has already been mentioned. Secondly, while the fact is unique, it is not particularly relevant to the topic at hand, which is the engagingness of the response. Therefore, it does not add value to the discussion. Finally, while the response does invite the audience to imagine the intelligence required to achieve such a feat, it does not do so in a particularly compelling manner. Overall, while the fact about Brad Johnson is intriguing, the response does not effectively engage the audience or contribute to the conversation.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: Respectfully, I must disagree with the negative side's argument. The response does add value to the conversation by providing relevant information related to the previous topic of discussion, which was about quarterbacks. Furthermore, the fact about Brad Johnson is not only intriguing but also highly unique, which makes it all the more engaging. The response also invites the audience to imagine the intelligence required to achieve such a feat, and this can be a great way to get the audience thinking deeply about the topic at hand. Therefore, I firmly believe that the response is highly engaging and contributes significantly to the conversation.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": I understand your point of view, but I still believe that the response is not as engaging as you make it out to be. Though it is true that the fact about Brad Johnson is unique, it does not necessarily make the response highly engaging. Additionally, while the response does invite the audience to imagine the intelligence required to achieve such a feat, it does not do so in a particularly compelling manner. Moreover, the response does not contribute anything new or insightful to the conversation, making it less engaging. Therefore, I stand by my belief that the response is not highly engaging and does not add significant value to the conversation.",
+        "turn": 3,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "Both sides presented their opinions on the engagingness of the response \"qbs are often very smart. Brad Johnson is the only qb in history to throw a touchdown pass to himself! Imagine the brains it takes to pull that off.\" The affirmative side argued that the response is highly engaging as it adds value to the conversation and invites the audience to think critically about the topic. They also pointed out that the fact about Brad Johnson is unique and intriguing, making it all the more engaging. The negative side, on the other hand, argued that the response is not as engaging as the affirmative side makes it out to be. They stated that the response does not contribute anything new to the conversation and does not invite the audience to think deeply in a compelling manner. \n\nAfter considering both sides, I believe that the affirmative side wins the debate. They effectively argued that the response is highly engaging by pointing out the relevance of the fact about Brad Johnson and the sense of wonder it creates in the audience. The negative side's argument, while valid, did not effectively rebut the affirmative side's points and did not provide a strong enough case to win the debate.",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "3",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "have you heard that people draft contestants for fantasy spelling bee ? pretty amazing to me . \n i 'm not even sure how they would even know that . are n't all the contestants children ? \n yes . i guess they see how well they won the regional contests . \n i mean , i guess fantasy are for the hardcore fans . have you ever seen the lord of the rings ? \n yes . of course that is fantasy of a different type . \n the third movie was the only fantasy film to win an academy award for \" best picture \" \n i did not remember that . back to competitive fantasy . there is also a game where people draft congress people and score on how many bills they successfully vote for . that seems so boring ! \n i 'm sure political science students would find enjoyment in that . it could be a great teaching tool ! \n yes . but one would really have to dig deeply to keep score . most news is about when congress can not agree . there is a fold in the brain that is the only thing that allows us to tell the difference between fantasy and reality . \n that 's an important fold ! i wonder how well students tell the difference if they 're enrolled in the university that has science fiction courses \n if i lost the fold , i would probably die jumping off a roof being sure i could fly . otherwise , my \" reality \" would be pretty good since i do n't dream or day dream bad things . those students would probably encounter some monsters . \n there 's even a concentration in tolkien studies . that would be interesting \n it sure would . in fantasy football one of the most important selections is qb since the qb touches the ball on most every play . \n i 've never played fantasy football , but i wonder if kellan moore is a good contender in that since he 's a lefty \n there is talent and luck in fantasy football . i am sure that moore has had some good games and some poor ones . alex smith took so many ap tests in high school that entered college as a junior . \n he 's pretty smart . it would take a lot of ap courses to knock out the first two years of college like that \n it sure would . of course , qbs need to be somewhat smart . baker mayfield who won the heisman at oklahoma university almost quite football to go into competitive gaming . he could beat the entire team in halo 3 . \n\n",
+        "topic_chat_fact": "superbowl winning quarterback , brad johnson , is the only quarterback in nfl history to throw a touchdown pass ... to himself .\n",
+        "topic_chat_response": "qbs are often very smart . brad johnson is the only qb in history to throw a touchdown pass to himself ! imagine the brains it takes to pull that off .",
+        "human_score": 3.0,
+        "predict_score": 3,
+        "predict_score_info": "certain"
+    }
+]

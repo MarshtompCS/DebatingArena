@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response presented by our affirmative team is undeniably engaging. It takes the conversation in an unexpected direction, injecting a bit of humor and lightheartedness into the discussion. This response has the potential to elicit a laugh or a smile from the other person, which would undoubtedly make the conversation more enjoyable for everyone involved.\n\nFurthermore, this response is unique and memorable. It's not every day that someone suggests watching a football game where one team loses by 222 points. This response stands out from the typical small talk and mundane conversation topics, making it more likely that the conversation will be remembered fondly.\n\nNow, I understand that our opponents may argue that the response is not relevant to the conversation at hand. However, I would like to remind them that the topic at hand is the engagingness level of a potential response. This response undoubtedly meets that criteria.\n\nIn conclusion, this response is engaging, humorous, unique, and memorable. It adds a fun and unexpected twist to the conversation, making it more enjoyable for all parties involved.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While I appreciate the affirmative team's enthusiasm for this response, I must respectfully disagree. This response is not only irrelevant to the current conversation but also inappropriate and insensitive. \n\nFirstly, the fact presented by the moderator was about the highest score ever in a football game, not the largest losing margin. Therefore, the response does not even align with the given fact, which shows a lack of attentiveness and understanding on the part of the responder.\n\nMoreover, suggesting that it would be great to watch a team lose by such a large margin is not only disrespectful to the losing team but also to the game of football itself. It trivializes the hard work and dedication that athletes put into their craft and reduces the game to a mere spectacle for entertainment purposes.\n\nFurthermore, the response has the potential to offend the other person and make them feel uncomfortable. They may have personal connections to a losing team or feel strongly about the importance of sportsmanship and fair play. By making light of such a significant loss, the response could come across as callous and insensitive.\n\nIn conclusion, while humor and lightheartedness can certainly add to a conversation's engagingness, it is essential to be mindful of the context and the other person's feelings. This response misses the mark on both accounts and is not an appropriate or engaging addition to the conversation.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "The affirmative presented a response that is engaging, unique, and memorable. They argued that the response adds humor and lightheartedness to the conversation, making it more enjoyable for everyone involved. On the other hand, the negative argued that the response is irrelevant, inappropriate, and insensitive. They pointed out that the response could potentially offend the other person and trivializes the game of football.\n\nBased on the criteria of engagingness, the affirmative team wins the debate. Their response is unexpected and could elicit a laugh or a smile from the other person, making the conversation more enjoyable. While the negative team made valid points about the response's relevance and appropriateness, they did not effectively rebut the affirmative's argument about the engagingness level of the response.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "2",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "hi ! do you follow football ? \n sorry , i ca n't say that i do , i'm familiar with the big stories , but that is it . \n that is about how much i know , just the basics , and some fun trivia . \n i used to live in dc son kind of know the redskins , but alex smith is new to me , is he the quarterback ? \n yes . he took so many ap classes in high school he entered college as a junior , he started working on a masters then . \n now that is impressive , you have this impression of sports players as jocks , but he transcends that stereotype . \n he really does , he was drafted as a number one pick in 2005 too . \n do you go to football games ? i 've been to one once in my life at indiana university . \n i ve been to quite a few at florida state , but no pro games . there is only 11 minutes of live action anyway \n i think that is what puts me off , i really do n't have time to sit in front of the tv for three hours , and then for only 11 minutes of play . \n it is hard to find time for that , i do nt know how some people do it all day , on a weekly basis . \n i guess some people listen to games on the radio , difficult to see how that works . \n i ve done it traveling , you ve got to really know the team and all of the players names . it was so much harder . \n do you have a favorite nfl team . like i said , i lived in dc for a while so kind of follow them . now in northern ohio , the browns are a difficult team to support . \n i feel you there , living in florida here . dolphins are hard to root for and feel proud . \n it could be worse , i read about this team that lost 220 - 0 . it would be hard to watch to the end . \n\n",
+        "topic_chat_fact": "- that the highest score ever in a football game occurred in 1916 when georgia tech defeated cumberland 222 - 0\n",
+        "topic_chat_response": "i think that would be a great game to watch . i would have to be a bit slow .",
+        "human_score": 2.0,
+        "predict_score": 2,
+        "predict_score_info": "certain"
+    }
+]

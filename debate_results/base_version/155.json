@@ -1,0 +1,90 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response given by the affirmative speaker is highly engaging, and I will explain why. Firstly, the response is witty and sarcastic, using humor to engage the audience. Secondly, the response is relevant to the conversation, as it directly addresses the fact presented by the negative speaker. Finally, the response is thought-provoking, as it raises a question about the potential actions of our current president. These factors make the response stand out and capture the audience's attention. In contrast, the negative speaker's response lacks engagement, as it simply states a fact without any added value or humor. Therefore, I strongly believe that the affirmative speaker has delivered a highly engaging response.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": I must disagree with the affirmative speaker's opinion. While the response may be witty and sarcastic, it lacks substance and fails to contribute anything meaningful to the conversation. The response merely reiterates a fact presented by the negative speaker and tries to make a joke out of it. Additionally, the sarcasm used in the response may offend some members of the audience and detract from the engagingness of the response. In contrast, the negative speaker's response provides a clear and concise rebuttal to the previous statement, highlighting the flaws in the argument made by the affirmative speaker. Therefore, I believe that the negative speaker's response is more engaging as it contributes to the conversation and challenges the previous statement.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: I respectfully disagree with the negative speaker's opinion. The response given by the affirmative speaker is engaging precisely because it uses humor to add a touch of levity to the conversation, making it more enjoyable for the audience. While it may be true that the response reiterates a fact presented by the negative speaker, it does so in a way that is creative and thought-provoking, which is the hallmark of an engaging response. Furthermore, the sarcasm used in the response is not offensive but rather adds to the humor of the conversation. On the other hand, the negative speaker's response lacks engagement because it merely repeats their previous statement without adding any new information or perspective. Therefore, I strongly believe that the affirmative speaker's response is more engaging due to its wit, relevance, and thought-provoking nature.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": [Rebuttal]: I appreciate the affirmative speaker's perspective, but I must disagree. While humor can be engaging, it is not the only factor that makes a response engaging. The response given by the affirmative speaker lacks substance and fails to add any new information or perspective to the conversation. The negative speaker's response, on the other hand, provides a clear and concise rebuttal to the previous statement, challenging the flawed argument made by the affirmative speaker. By doing so, the negative speaker's response adds value to the conversation and engages the audience by promoting critical thinking. Therefore, I maintain that the negative speaker's response is more engaging because it contributes to the conversation and challenges the previous statement.",
+        "turn": 3,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Counter-Rebuttal]: I appreciate the negative speaker's opinion but I still believe that the affirmative speaker's response is more engaging. While it is true that the negative speaker's response challenges the previous statement, it does so in a way that is predictable and lacks creativity. In contrast, the affirmative speaker's response uses humor and sarcasm to add a unique perspective to the conversation, making it more enjoyable for the audience. Furthermore, the response also highlights the potential actions of our current president, which prompts further discussion and engagement from the audience. Therefore, I maintain that the affirmative speaker's response is more engaging due to its wit, relevance, and thought-provoking nature.",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": [Counter-Rebuttal]: I appreciate the affirmative speaker's perspective, but I disagree that the negative speaker's response lacks creativity. The response provides a clear and concise rebuttal to the previous statement, challenging the flawed argument made by the affirmative speaker. This promotes critical thinking and encourages further engagement from the audience. While humor can be engaging, it is not the only factor that makes a response engaging. The negative speaker's response adds value to the conversation by providing new information and perspective. Therefore, I maintain that the negative speaker's response is more engaging, as it promotes critical thinking and adds value to the conversation.",
+        "turn": 5,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Final Rebuttal]: I understand the negative speaker's perspective, but I still believe that the affirmative speaker's response is more engaging. While the negative speaker's response challenges the previous statement, it does so in a predictable and unexciting manner. On the other hand, the affirmative speaker's response uses humor and sarcasm to add a unique perspective to the conversation, which makes it more enjoyable and thought-provoking for the audience. While new information and perspective are important in a conversation, it is equally important to keep the audience engaged and entertained. Therefore, I maintain that the affirmative speaker's response is more engaging due to its wit, relevance, and thought-provoking nature.",
+        "turn": 6,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": [Final Rebuttal]: While I understand the affirmative speaker's perspective, I still maintain that the negative speaker's response is more engaging. While humor and sarcasm can add a unique perspective to a conversation, they are not the only factors that make a response engaging. The negative speaker's response challenges the previous statement in a clear and concise manner, which promotes critical thinking and encourages further engagement from the audience. Moreover, the response provides new information and perspective to the conversation, which adds value and depth to the discussion. Therefore, I maintain that the negative speaker's response is more engaging, as it promotes critical thinking, adds value, and challenges the previous statement.",
+        "turn": 7,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "Both speakers presented their opinions on which response is more engaging, with the affirmative speaker arguing that the response using humor and sarcasm is more engaging, while the negative speaker argued that a response that challenges the previous statement and provides new information and perspective is more engaging. \n\nAfter considering both sides, I have to declare the negative speaker as the winner of this debate. While humor and sarcasm can be engaging, the negative speaker's response provides a clear and concise rebuttal to the previous statement, challenges the flawed argument made by the affirmative speaker, and adds value to the conversation by providing new information and perspective. By doing so, the negative speaker's response promotes critical thinking, adds depth to the discussion, and engages the audience.",
+        "turn": 8,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1.",
+        "turn": 8,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "the white house is at 1600 pennsylvania avenue in washington d.c . and has been there since 1800 and i have never been . have you ? \n i 've never been , though i want to go.the white house seems behind the curve technologically . w. had solar panels put back on the white house . reagan had them taken off . i wonder why clinton did n’t put them back on . floppy disks ? i wonder if they have laser printers yet . or mice . \n well other countries apparently like it as well as there are copies in france and ireland apparently . \n i guess we have a historical link with those countries . the president 's guest house is larger than the white house . i ’m surprised trump can stand the situation . he might have to add some stories to the white house . or maybe rent out the guest house . \n like he needs more money though apparently he does not reach the top 3 in wealth , that would be jfk , washington and jefferson . \n though not one of the top three richest presidents , maybe trump can be one of the top pop stars ever to hold office . the indonesian president released 3 pop albums while in office . maybe trump can get four albums out . he might need to get re - elected though . \n i do n't know , i think i would rather have president banana from zimbabwe put out some tunes instead . \n what nickname has trump earned ? ? until 1805 , the runner - up in a presidential election became vp . i think this system should be reinstated . the entertainment factor would be tremendous for a public starved for diversion . there 's not much getting done in government anyway . seems like a missed opportunity for some laugh 's \n they may not appear to get anything done but they do own 86 % of the land of nevada , so they obviously did something right , haha . \n\n",
+        "topic_chat_fact": "86 % of the land in nevada is owned by the us government\n",
+        "topic_chat_response": "but the us government has always owned 86 % of the land in nevada , it has nothing to do with our current government . well , at least our president hasn 't sold it to russia !",
+        "human_score": 2.6666666667,
+        "predict_score": null,
+        "predict_score_info": "error"
+    }
+]

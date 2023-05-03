@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, I believe that the response presented by the affirmative is highly engaging. Let me tell you why. \n\nFirstly, the response aligns with the topic of the conversation, which is the NFL. This shows that the person is interested and attentive to the conversation, making them more engaging to talk to.\n\nSecondly, the response engages the other person by asking a question back. By asking \"what about you?\", it encourages the other person to share their own opinion and continue the conversation, creating a more engaging dialogue.\n\nFurthermore, the response is short and to the point, making it easy for the other person to understand and respond to. This makes the conversation flow smoothly and keeps the engagement level high.\n\nLastly, although the presented fact may not be directly related to the topic of the conversation, it still adds an interesting and unusual element to the conversation, making it more engaging and memorable.\n\nIn conclusion, the affirmative's response is highly engaging because it aligns with the topic, encourages further conversation, is concise and easy to understand, and adds an interesting element to the dialogue.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": Ladies and gentlemen, while my opponent may argue that the response is engaging, I must respectfully disagree.\n\nFirstly, the response lacks any originality or creativity. \"I am a fan of the NFL, I like the NFL, what about you?\" is a generic and overused response that fails to stand out or add any value to the conversation. This can quickly become boring and unengaging for the other person.\n\nSecondly, asking a question back may encourage the other person to continue the conversation, but it does not necessarily make the response engaging. In fact, it can come across as lazy and uninterested in the other person's opinion, which can hinder engagement levels.\n\nFurthermore, the presented fact may be interesting, but it is not relevant to the topic of the conversation. Bringing up a random fact can derail the conversation and make it confusing and unengaging.\n\nIn conclusion, the negative argues that the response is not engaging due to its lack of creativity, potential laziness, and irrelevance to the conversation.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "Based on the arguments presented, the affirmative believes that the response is engaging because it aligns with the topic, encourages further conversation, is concise and easy to understand, and adds an interesting element to the dialogue. The negative, on the other hand, argues that the response lacks creativity, potential laziness, and irrelevance to the conversation.\n\nIn my opinion, the affirmative wins the debate. The affirmative successfully argues that the response is engaging because it encourages further conversation, is concise and easy to understand, and adds an interesting element to the dialogue. The negative, while presenting valid points, fails to provide sufficient evidence to support the claim that the response is unengaging. Therefore, the affirmative has a stronger argument and wins the debate.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "are you a fan of the nfl ? \n i definitely am . watching the super bowl has become a family tradition . what about you ? \n\n",
+        "topic_chat_fact": "new orleans saints cheerleaders are forbidden from eating in the same restaurant as any nfl player and if they are already dining at a restaurant and an nfl player comes in after , the cheerleaders are required to leave .\n",
+        "topic_chat_response": "i am a fan of the nfl , i like the nfl , what about you ?",
+        "human_score": 1.3333333333,
+        "predict_score": 1,
+        "predict_score_info": "certain"
+    }
+]

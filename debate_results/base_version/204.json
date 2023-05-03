@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response provided by the affirmative is highly engaging. It is true that fantasy football was not popular in the 1960s, and the fact that pro bowlers used to make more money than pro football players is interesting. The response provides a unique perspective on the topic, and it is sure to grab the attention of the audience. The affirmative response is relevant, coherent, and natural. It adds value to the conversation and encourages further discussion. In contrast, the negative side has not presented any compelling reasons to suggest that the response is not engaging. Therefore, I urge the moderator to allow the conversation to continue and explore the topic further. Thank you.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": Thank you, moderator. While I appreciate the affirmative's attempt to provide a unique perspective on the topic, I must disagree with their assessment of the response's engaging level. The response fails to address the topic at hand and instead provides an irrelevant fact about the popularity of fantasy football in the 1960s. The fact that pro bowlers used to make more money than pro football players is also not directly related to the topic and does not contribute to the conversation. \n\nFurthermore, the response lacks coherence as it jumps from one topic to another without any clear connection. It also fails to provide any new insights or opinions on the topic, making it uninteresting and unengaging to the audience. \n\nIn conclusion, the response provided by the affirmative is not engaging as it is irrelevant, lacks coherence, and fails to provide any new insights or opinions on the topic. Therefore, I urge the moderator to end the conversation and move on to a more engaging topic. Thank you.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "[Mod]: Thank you, both affirmative and negative, for presenting your perspectives on the engaging level of the potential response. The affirmative believes that the response is highly engaging because it provides a unique perspective on the topic and adds value to the conversation. On the other hand, the negative argues that the response is irrelevant, lacks coherence, and fails to provide new insights or opinions on the topic.\n\nAfter carefully considering both sides, it is clear that the negative has presented more compelling reasons to suggest that the potential response is not engaging. The response lacks coherence, fails to address the topic at hand, and does not provide new insights or opinions. Therefore, the negative wins the debate. Thank you both for participating in this competition.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "do you like football ? \n hey ya i like the nfl and college ! my favorite position is the quarterback because they are considered the leader of the offense . what about you ? \n the quarterback has a lot of responsibilities , he is the leader . too much responsibilities for me . i like defense . \n oh nice . well have you heard the highest score ever in a football game was 222 - 0 when georgia tech defeated cumberland . no defense for cumberland in that game ! \n i would you feel if you were on the winning team ? as for i would feel kind of bad . \n yeah i would feel bad too . bad sportsmanship . is n't it odd that pro bowlers used to make more money than pro football players in the 1960 's ! \n\n",
+        "topic_chat_fact": "people fantasy draft the national spelling bee\n",
+        "topic_chat_response": "it was another era , people had different interests . fantasy football was not big at that time , now we have analysts in fantasy football . ",
+        "human_score": 2.6666666667,
+        "predict_score": 1,
+        "predict_score_info": "certain"
+    }
+]

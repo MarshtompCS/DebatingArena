@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response \"well, in 39 out of 50 states, the highest-paid state employee is either a college football or basketball coach\" is undeniably engaging. It is an interesting fact that is likely to catch the attention of most people, particularly those who are sports enthusiasts. \n\nMoreover, this response has the potential to spark a conversation about the role of sports in our society, the high salaries of coaches, and the value we place on athletics. It can also lead to a discussion about the education system and the allocation of resources, which are important topics that are relevant to many people. \n\nIn addition, this response is short and to the point, making it easy to understand and remember. It is also a surprising fact that may challenge people's preconceived notions about the highest-paid state employees, and this can lead to a more meaningful and productive conversation. \n\nTherefore, I urge the moderator to allow this engaging response to be used in the ongoing conversation. Thank you.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While I agree that the response does contain an interesting fact, I do not believe it is as engaging as my opponent suggests. Firstly, it is a well-known fact that college sports are a big business in America, and many people are already aware of the high salaries of college coaches. Therefore, the response may not be as surprising or thought-provoking as my opponent claims.\n\nMoreover, the response does not contribute much to the ongoing conversation about basketball and its history. It is merely a statement of fact that is unlikely to lead to any meaningful discussion or debate. In fact, it may even derail the conversation and shift the focus away from the topic at hand.\n\nFinally, while the response is short and easy to understand, it lacks any personal connection or emotion that can make a response truly engaging. It is simply a statement of fact without any passion or enthusiasm behind it.\n\nIn conclusion, while the response may be interesting to some, it is not engaging enough to warrant its use in the conversation. We should focus on more relevant and thought-provoking topics that can lead to a more productive discussion. Thank you.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "Both the affirmative and negative participants presented compelling arguments regarding the engaging level of the potential response. The affirmative argued that the response is interesting, easy to understand, and has the potential to spark a conversation about important topics such as the role of sports in our society and the allocation of resources. On the other hand, the negative argued that the response is not as engaging as it may seem, lacks personal connection, and may derail the ongoing conversation.\n\nAfter considering both arguments, I believe that the negative participant wins this debate. While the potential response may contain an interesting fact, it is not engaging enough to warrant its use in the conversation. Furthermore, the response may shift the focus away from the topic at hand and fail to contribute to a meaningful discussion.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "2",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "hello how are you doing ? reggie miller , nba hall of famer , could n't escape his older sister cheryl 's shadow while in high school . on january 26 , 1982 , he scored a career high 40 points . he tried bragging about it on the car ride home , only to find out cheryl scored 105 points and broken 8 national records ! \n yes , and do you like basketball ? \n i do nt keep track of all basketball but i do watch the warriors play . how about you ? \n yes , me also . but it 's very interesting game in the world . \n it is , did you know nba player allen iverson signed a lifetime endorsement contract with reebok in 2001 that would pay him $ 800,000 a year until he reaches age 55 to where he would then receive a final lump sum payment of $ 32,000,000 . \n national basketball association ( nba ) , professional basketball league formed in the united states in 1949 by the merger of two rival organizations , the national basketball league ( founded 1937 ) and the basketball association of america ( founded 1946 ) . \n oh i guess that s interesting . \n by the early 1980s the nba was plagued by money - losing franchises , low attendance , declining television ratings , and limited national appeal . the league soon rebounded under the leadership of david stern , nba commissioner from 1984 , who helped transform it into an international entertainment company . \n physicists proved that shooting \" granny style \" is the absolute best technique to consistently score points on the line , but nba players refuse to do it because it looks stupid . maybe they should start shooting granny style again ! lol \n yes , that 's nice . \n kareem abdul - jabbar 's dominant use of the dunk got the shot banned from college basketball for over a decade . \n kareem abdul - jabbar is an american retired professional basketball player who played 20 seasons in the national basketball association for the milwaukee bucks and the los angeles lakers . \n james naismith , the inventor of basketball , is the only losing coach in the university of kansas 's history \n james naismith wrote and developed the game 's original thirteen rules and , through the ymca network , quickly spread the news throughout the country . \n\n",
+        "topic_chat_fact": "in 39 out of 50 states , the highest paid state employee is either a college football or basketball coach .\n",
+        "topic_chat_response": "well , in 39 out of 50 states , the highest paid state employee is either a college football or basketball coach",
+        "human_score": 2.0,
+        "predict_score": 2,
+        "predict_score_info": "certain"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response \"yeah, I guess football has changed so much. I wonder if bowling is more popular in the 60's than football\" is an incredibly engaging response. It brings up a new topic that is unexpected and not related to the previous conversation, which can lead to an interesting and lively discussion. Furthermore, it shows a sense of curiosity and a desire to learn more about the topic at hand. This response can help keep the conversation going and prevent it from falling into a lull. Therefore, I strongly believe that this response is highly engaging and should be considered a valuable addition to any conversation.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While I understand the point being made, I must disagree with my opponent. The response \"yeah, I guess football has changed so much. I wonder if bowling is more popular in the 60's than football\" is not engaging at all. In fact, it completely derails the conversation and takes it in a completely different direction. It's not relevant to the previous topic, and it's unlikely to be of interest to the other person in the conversation. \n\nMoreover, the response lacks substance and doesn't provide any valuable insights or opinions. It's merely a statement of curiosity that doesn't add anything to the conversation. As a result, it's unlikely to spark any meaningful discussion, and it may even lead to the conversation ending prematurely. \n\nIn conclusion, while curiosity and a desire to learn are commendable traits, they must be channeled in a way that is relevant and engaging to the other person in the conversation. The response in question fails to do that and falls short of being an engaging contribution to the conversation.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: While my opponent makes a valid point about the response taking the conversation in a different direction, I must emphasize that it is precisely the unexpected and surprising nature of the response that makes it engaging. It can inject a new energy into the conversation and prevent it from becoming stale or predictable. \n\nFurthermore, my opponent's claim that the response lacks substance is unfounded. The response raises an interesting point about the changing popularity of sports over time, which can lead to a meaningful discussion about cultural shifts and societal values. It also shows the speaker's ability to think creatively and make connections between seemingly unrelated topics. \n\nIn conclusion, I stand by my assertion that the response is highly engaging and can be a valuable addition to any conversation. Its unexpected nature and potential for sparking meaningful discussion make it a worthwhile contribution, despite its departure from the previous topic.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": I appreciate my opponent's points, but I must still disagree. While a surprising and unexpected response can be engaging, it must also be relevant and add value to the conversation. In this case, the response is a non sequitur that is not related to the previous topic and does not provide any meaningful insights or opinions. \n\nMoreover, while the topic of changing sports popularity may be interesting, the response in question does not delve into it in any meaningful way. It merely raises the question without offering any further discussion or analysis. \n\nIn conclusion, while creativity and curiosity are admirable traits, they must be channeled in a way that is relevant and adds value to the conversation. The response in question falls short in both regards, and as such, I still maintain that it is not an engaging contribution to the conversation.",
+        "turn": 3,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "[Summary]: The affirmative argues that the response \"yeah, I guess football has changed so much. I wonder if bowling is more popular in the 60's than football\" is highly engaging because it brings up a new and unexpected topic that can lead to an interesting discussion. It also shows a sense of curiosity and a desire to learn more. The negative, on the other hand, argues that the response is not engaging because it is a non sequitur and not related to the previous conversation. Furthermore, it doesn't provide any valuable insights or opinions. \n\n[Decision]: Based on the arguments presented, the negative wins the debate. While the affirmative makes a valid point about the response being unexpected, the negative's argument that the response lacks relevance and substance is more convincing. The response is unlikely to spark a meaningful discussion and may even be perceived as a distraction. Therefore, the negative's argument that the response is not engaging is more compelling.",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "do you like football ? \n hey ya i like the nfl and college ! my favorite position is the quarterback because they are considered the leader of the offense . what about you ? \n the quarterback has a lot of responsibilities , he is the leader . too much responsibilities for me . i like defense . \n oh nice . well have you heard the highest score ever in a football game was 222 - 0 when georgia tech defeated cumberland . no defense for cumberland in that game ! \n i would you feel if you were on the winning team ? as for i would feel kind of bad . \n yeah i would feel bad too . bad sportsmanship . is n't it odd that pro bowlers used to make more money than pro football players in the 1960 's ! \n\n",
+        "topic_chat_fact": "people fantasy draft the national spelling bee\n",
+        "topic_chat_response": "yeah , i guess football has changed so much . i wonder if bowling is more popular in the 60 's than football .",
+        "human_score": 3.0,
+        "predict_score": 1,
+        "predict_score_info": "certain"
+    }
+]

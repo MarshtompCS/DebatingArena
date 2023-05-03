@@ -1,0 +1,58 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response \"maybe it's time to collect some baseball cards now, so you can cash out when you're older!\" is an incredibly engaging response. Not only does it show a sense of humor, but it also adds to the conversation by introducing a new topic. It also creates a sense of nostalgia by bringing up the idea of collecting baseball cards, which many of us may have done as children. Additionally, it encourages forward thinking and planning for the future, which is always a relevant and important topic. Any argument against the engaging level of this response would be unfounded and lacking in depth. Therefore, I urge the moderator to allow this conversation to continue and for us to explore the topic of baseball cards further.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While I agree that the response introduces a new topic and adds a touch of humor to the conversation, I must disagree with the notion that it is an incredibly engaging response. Firstly, the idea of collecting baseball cards to cash out in the future may not be relatable or appealing to everyone in the conversation. Some may find it irrelevant or uninteresting. Secondly, the response does not offer any insight or information that could further the conversation in a meaningful way. Lastly, the response may come across as a bit pushy or sales-y, as it is suggesting that individuals should start collecting baseball cards with the sole purpose of making money in the future. In conclusion, while the response may have some positives, it lacks the depth and universality to be considered an incredibly engaging response.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: I respectfully disagree with my opponent's argument. While it is true that not everyone may find collecting baseball cards to be interesting or relevant, this response was not meant to appeal to everyone in the conversation. Rather, it was an attempt to inject some humor and lightheartedness into the conversation, which is a key component of engagement. Additionally, the fact that the response introduces a new topic - collecting baseball cards - is a clear indication of its engagement potential. As for the suggestion that the response is pushy or sales-y, I would argue that it is merely a suggestion and not a demand. Overall, I firmly believe that this response is incredibly engaging and has the potential to spark further conversation and exploration of the topic of collecting baseball cards.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While I appreciate my opponent's passion for the response, I would like to reiterate that engagement requires more than just injecting humor and introducing a new topic. Engagement requires a response that resonates with the audience and encourages them to participate actively in the conversation. Unfortunately, the response in question fails to do so. As I previously mentioned, not everyone may find collecting baseball cards to be interesting or relevant, which means that the response may not resonate with everyone in the conversation. Furthermore, the response does not encourage active participation or provide any new insights or information that could drive the conversation forward. Therefore, I stand by my previous statement that this response lacks the depth and universality to be considered an incredibly engaging response.",
+        "turn": 3,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "Summary:\n\nThe affirmative argued that the response \"maybe it's time to collect some baseball cards now, so you can cash out when you're older!\" is an incredibly engaging response because it introduces a new topic, adds humor, creates nostalgia, and encourages forward thinking. They also argued that engagement is subjective and that the response can spark further conversation.\n\nThe negative argued that while the response has some positives, it lacks the depth and universality to be considered incredibly engaging. They argued that engagement requires a response that resonates with the audience and encourages active participation, which the response fails to do.\n\nVerdict:\n\nBased on the arguments presented, the negative wins the debate. While the affirmative argued that engagement is subjective and that the response can spark further conversation, the negative successfully argued that engagement requires more than just introducing a new topic and adding humor. The negative's argument that engagement requires a response that resonates with the audience and encourages active participation was stronger and more convincing. Therefore, the negative wins the debate.",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "2",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "hi there , how 's it going ? \n it 's going great ! which do you prefer , football or baseball ? \n oh i guess baseball . although i do n't have time to see many games anymore . \n baseball is the american pastime . japanese are surprised to discover this fact . \n yeah , i guess they see it as being their own . they have their own fan culture around it . what is your favorite sport ? \n i like both baseball and football , but i usually follow them around playoff time . do n't have much time for games . \n yeah the seasons are so long that it 's tough to get really immersed . especially baseball . it 's what , 162 games ? \n 162 , plus playoffs . soon they 'll be playing until christmas . until 2005 , a married couple scheduled all the games for the mlb . they must have had special software or something . \n yeah . although i think they had done it since the 80s . maybe they did the first few seasons on a commodore 64 lol ? \n the old c64 ! classic . i do n't remember any good sports games on that though . football , baseball , soccer . probably not easy to do on a c64 . \n yeah . i know they had accounting software lol , my dad used it . we had the minnesota fats pool game and i think one soccer one . but it was such a different era . no madden style graphics \n i wonder whether they had a version of kickball on the c64 . the canadians call the game soccer - baseball . \n yeah i 've read that somewhere . when i was a kid , we played a kind of kickball called rounders at camp . our counselor was english . he kept telling us \" run to fourth ! \" and we were like , \" you mean home ? run home ? \" \n baseball is american ! i do n't know the english would want with it . i bet the english do n't collect \" rounders \" cards the way we collect baseball cards . \n right ? i wonder if they have cricket cards lol ? i think they have stickers for soccer . \n some guy found $ 3 million dollars of baseball cards from the 1900s . i wonder what he did with the money . \n yeah . that 's an amazing find . i heard they had been hidden since the 40s . \n thanks , grandpa ! i bet grandpa wishes he had cashed them in before he cashed out . \n\n",
+        "topic_chat_fact": "_nofact\n",
+        "topic_chat_response": "maybe it's time to collect some baseball cards now , so you can cash out when you 're older !",
+        "human_score": 2.6666666667,
+        "predict_score": 2,
+        "predict_score_info": "certain"
+    }
+]

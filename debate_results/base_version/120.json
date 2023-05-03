@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response provided by my counterpart is undeniably engaging. It captures the attention of the listener by presenting a startling fact that is sure to surprise and intrigue anyone. The response is also unique and original, adding value to the conversation and providing new information that was not previously discussed. \n\nFurthermore, the response is delivered in a concise and clear manner, making it easy for the listener to follow and understand. It also shows that the speaker has a keen interest in the topic at hand and has taken the time to research and learn about it. This, in turn, makes the conversation more engaging and interesting for all parties involved.\n\nIn conclusion, the response provided by my counterpart is not only engaging but also informative and well-delivered. It adds value to the conversation and shows a genuine interest in the topic at hand. It's hard to imagine anyone who wouldn't find this response engaging and intriguing.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While I agree that the fact presented in the response is surprising and may grab the attention of the listener, I must point out that it is not relevant to the current conversation. The conversation is about the box office and how movies generate revenue, not about a specific movie's financial failure.\n\nAdditionally, the response lacks coherence and does not connect well with the previous statements made in the conversation. It is a sudden change in topic that may confuse the listener and disrupt the flow of the conversation. \n\nMoreover, the response does not contribute any new information or insight into the topic at hand. It simply presents a fact that is not relevant and does not add any value to the conversation. \n\nIn conclusion, while the response may be surprising and attention-grabbing, it lacks relevance, coherence, and value to the current conversation. Therefore, it cannot be considered an engaging response.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "[Modertaor]: Both the affirmative and negative participants have presented their arguments regarding the engaging level of the response provided. The affirmative participant highlighted that the response is engaging due to its uniqueness, originality, and delivery. On the other hand, the negative participant argued that the response lacks relevance, coherence, and value to the current conversation.\n\nBased on the criteria of engagingness, the affirmative participant has presented a more convincing argument. The response is engaging due to its surprising nature, and it adds value to the conversation by presenting a new and interesting fact. Therefore, the affirmative participant wins the debate.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "3",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "hello , do you know much about the box office ? \n hi , film generates revenue through several medium like television broadcasts right and advertisement . box office is the primary metric for trade . \n yep . did you know tom hanks is the highest all - time box office star ? \n yes , avatar is the world wide proclaimed as highest grossing film over 2 billion . \n i love avatar . it was such a great movie . i heard they are making a second one . \n animated film are contribute biggest in box office collection . mostly kids liked movie have very high box office . \n yes for sure . disney once considered shutting down their animation studio because sleeping beauty was a flop at the box office . \n the projection and analysis of these earnings is very important for the movie industries and knowing the interest of the fans . so only they are promoting the films in various way . \n\n",
+        "topic_chat_fact": "the movie trojan wars with a budget of $ 15,000,000 has earned only $ 309 in box office\n",
+        "topic_chat_response": "interesting . the movie trojan war had a budget of $ 15 million and only made $ 309 at the box office . seems like that is wrong . ",
+        "human_score": 2.0,
+        "predict_score": 3,
+        "predict_score_info": "certain"
+    }
+]

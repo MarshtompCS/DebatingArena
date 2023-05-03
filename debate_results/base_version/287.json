@@ -1,0 +1,74 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response presented by the affirmative is undeniably engaging. It not only adds to the ongoing conversation but also brings up an interesting fact about the Sacramento Public Library's \"Library of Things.\" This response has the potential to spark curiosity and interest in the minds of the listeners, as it provides a new perspective on libraries beyond just books.\n\nFurthermore, the response cleverly connects the library's move towards non-traditional items, such as sewing machines, to the changing preferences of the younger generation. This connection is particularly engaging because it taps into the trend of millennials seeking experiences over possessions. This response, therefore, not only adds to the conversation but also has the power to inspire the audience to take action, which makes it an extremely engaging response.\n\nIn conclusion, the affirmative believes that the response is engaging because it not only adds to the conversation but also provides an interesting fact and connects it to the changing preferences of the younger generation, making it relatable and inspiring.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": Ladies and gentlemen, while the response presented by the affirmative may seem engaging at first glance, it fails to provide any meaningful contribution to the ongoing conversation. The fact that some libraries are moving beyond books and allowing patrons to check out things like sewing machines is interesting, but it does not add any value to the current discussion.\n\nFurthermore, the response makes an assumption that more millennials will start going to libraries because of this move towards non-traditional items. However, there is no evidence to support this claim, and it is therefore unreasonable to make such a prediction. Additionally, the response fails to address the main topic of the conversation, which is banned books week.\n\nIn conclusion, the negative believes that the response presented by the affirmative is not engaging because it fails to provide any valuable contribution to the current discussion and makes an unreasonable assumption without any evidence to support it.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: Respectfully, the negative fails to see the potential of the response in sparking interest and curiosity in the minds of the listeners. While the response may not directly address the topic of banned books week, it still adds to the conversation by presenting a new perspective on libraries and their offerings beyond books. This can lead to a wider conversation on the importance of libraries and their role in society.\n\nFurthermore, the response's assumption that more millennials will start going to libraries because of the move towards non-traditional items is not unreasonable. Studies have shown that millennials are looking for experiences over possessions, and providing access to items such as sewing machines and other non-traditional items may attract this generation to libraries. \n\nIn conclusion, the affirmative continues to maintain that the response is engaging, as it adds value to the conversation by presenting a new perspective and has the potential to inspire action.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While the affirmative may argue that the response adds value to the conversation, it still fails to address the main topic of banned books week. The response's connection to the changing preferences of millennials is not relevant to the conversation and does not contribute to the discussion in any meaningful way.\n\nFurthermore, the assumption that more millennials will start going to libraries because of the move towards non-traditional items is still unfounded. While studies may show that millennials prefer experiences over possessions, it does not necessarily mean that they will flock to libraries for access to non-traditional items. There are many other factors that influence millennials' decisions on where to go for experiences.\n\nIn conclusion, the negative maintains that the response presented by the affirmative is not engaging because it fails to address the main topic of the conversation and its assumptions are still unfounded.",
+        "turn": 3,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: The negative continues to focus solely on the fact that the response does not directly address the topic of banned books week. However, the affirmative believes that the response adds value to the conversation by providing a new perspective on libraries beyond books, which can lead to a wider conversation on the importance of libraries and their offerings.\n\nMoreover, while the negative may argue that the assumption that more millennials will start going to libraries because of the move towards non-traditional items is unfounded, it is still a valid point that can spark further discussion. The response opens up a conversation on how libraries can attract younger generations and adapt to changing preferences.\n\nIn conclusion, the affirmative strongly believes that the response is engaging because it presents a new perspective on libraries and their offerings beyond books, which can lead to a wider conversation on the importance of libraries and their role in society. Additionally, the response's assumption on how libraries can attract younger generations is a valid point that can spark further discussion.",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While the affirmative may argue that the response adds value to the conversation, it still fails to address the main topic of the conversation, which is banned books week. The response's connection to libraries and their offerings beyond books is interesting, but it does not contribute to the discussion in any meaningful way.\n\nMoreover, the response's assumption that more millennials will start going to libraries because of the move towards non-traditional items is still unfounded. While it may be a valid point to discuss, it is not directly relevant to the current conversation.\n\nIn conclusion, the negative maintains that the response presented by the affirmative is not engaging because it fails to address the main topic of the conversation and its assumptions are still unfounded.",
+        "turn": 5,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "Both sides presented valid points, but the negative argued that the response failed to address the main topic of the conversation, which is banned books week. The affirmative argued that the response was engaging because it presented a new perspective on libraries and their offerings beyond books, which could lead to a wider conversation on the importance of libraries and their role in society. \n\nIn this debate, the negative wins as they effectively argued that the response did not address the main topic of the conversation and therefore failed to be engaging.",
+        "turn": 6,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "I would score the engaging level of the response presented as a 2.",
+        "turn": 6,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "hey are you aware of banned books week ? \n i did n't know it was a thing because i did n't realize that there are any books that are banned . what do you know about it ? \n i think that it is a reminder of books that have been banned in the past for their controversial content , i remember it during my childhood \n are n't most of those books now bestsellers ? i see the point of the event , but maybe it should be renamed to better reflect their current status \n yes i think you 're right , how often do you go to the library btw ? \n not very often since most of what i borrow through my library are ebooks and audiobooks . i love that i can access things right on my phone , though i do miss the feel of paper books \n\n",
+        "topic_chat_fact": "the sacramento public library started a \" library of things \" earlier this year , allowing patrons to check out , among other things , sewing machines and other items that patrons may find useful , but do n't need to own long - term .\n",
+        "topic_chat_response": "some libraries are moving beyond books . the sacramento library lets people check out things like sewing machines . maybe more millenials will start going to libraries now !",
+        "human_score": 3.0,
+        "predict_score": null,
+        "predict_score_info": "error"
+    }
+]

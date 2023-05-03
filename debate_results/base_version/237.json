@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, I would like to draw your attention to the response given by our debater. Although it may not be coherent or relevant to the conversation, it certainly catches our attention. The use of the word \"crazy\" creates a sense of intrigue and surprise, which is exactly what we want in engaging conversation. It is important to note that engagement does not always have to rely on coherence or relevance. Sometimes, it is the unexpected or unconventional responses that make a conversation more interesting. Therefore, I believe that the response given should be considered highly engaging. Thank you.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": Respected moderator and fellow debaters, while I understand my opponent's argument, I must strongly disagree. Engagement in conversation is not solely based on surprise or intrigue, but also on coherence and relevance. The response given by our debater was not only irrelevant to the conversation but also lacked coherence. The use of the phrase \"test the British who must get the baggage claim\" makes no sense in the context of the conversation. In fact, it detracts from the flow of the conversation and causes confusion. Engagement should not come at the cost of coherence and relevance, as it can lead to frustration and disinterest from the other party. Therefore, I believe that the response given is not engaging, but rather disruptive to the conversation. Thank you.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "[Summary]: The affirmative argues that engagement can come from unexpected or unconventional responses, and that the use of the word \"crazy\" catches our attention and creates intrigue. On the other hand, the negative argues that engagement should not come at the cost of coherence and relevance, and the response given lacks both. The phrase \"test the British who must get the baggage claim\" is confusing and disrupts the flow of the conversation. \n\n[Decision]: While the affirmative makes a valid point about unexpected responses creating engagement, the response given lacks coherence and relevance, leading to confusion and frustration. Therefore, the negative's argument that engagement should not come at the cost of coherence and relevance is stronger. The negative wins the debate.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "hello , do you like swimming ? \n hi there ! i do ! i love watching the olympic events . how about you ? \n same here . i do not swim that much but i occasionally go to the pool every once and a while . i also enjoy watching swimming in the olympics ; \n did you know cornell students are actually required to pass a basic swim test before they can graduate ? \n i think that that is a good idea ! native americans also introduced the british to the front crawl . \n\n",
+        "topic_chat_fact": "native americans introduced the front crawl swimming stroke to the west when they beat the british who only used the breaststroke .\n",
+        "topic_chat_response": "that is crazy , i did n't know that . i know that cornell students must pass a basic swimming test in order to test the british who must get the baggage claim .",
+        "human_score": 1.6666666667,
+        "predict_score": 1,
+        "predict_score_info": "certain"
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response provided by my colleague is highly engaging. It grabs the attention of the listener by linking two seemingly unrelated topics - competitive gaming and football. This clever connection makes the listener curious and interested in the response. Additionally, the response contains a surprising fact that is not commonly known. The fact that Brad Johnson is the only quarterback in NFL history to throw a touchdown pass to himself is intriguing and memorable. It is likely to spark further discussion and debate, making it an excellent response. The con side may argue that the response is not relevant to the conversation at hand, but I would like to remind them that engagingness is not solely determined by relevance. The connection between two seemingly unrelated topics is what makes this response so engaging and memorable. Therefore, I urge the moderator to consider the engaging level of the response and award the point to the affirmative side.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While I appreciate my colleague's enthusiasm for the response, I must respectfully disagree with their assessment of its engagingness. The response may contain a surprising fact, but it fails to connect with the ongoing conversation. The fact that Brad Johnson is the only quarterback in NFL history to throw a touchdown pass to himself is interesting, but it is not relevant to the conversation about fantasy sports and competitive gaming. Therefore, the response does not add value to the conversation and may even derail it. Additionally, the response does not provide any new information or insights that would encourage further discussion. It is merely a factoid that is unlikely to generate any meaningful debate. In conclusion, while the response may be interesting, it lacks relevance and value in the context of the ongoing conversation.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: Thank you for your input, but I must respectfully disagree with the negative side. While it is true that the response may not be directly related to the ongoing conversation, it is still engaging as it connects two seemingly unrelated topics. It is precisely this unexpected connection that makes the response memorable and thought-provoking. The fact that Brad Johnson threw a touchdown pass to himself may not be directly relevant to the conversation, but it is still an interesting fact that adds to the overall engagement of the discussion. Furthermore, the response does provide new information that could lead to further discussion. For example, we could discuss other interesting facts about NFL quarterbacks or the history of self-pass touchdowns. In conclusion, the response is engaging because it is unexpected and adds value to the conversation.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": I understand that the affirmative side believes that the response is engaging because it connects two seemingly unrelated topics, but I still maintain that the response lacks relevance and value in the ongoing conversation. While unexpected connections can be engaging, they must also be relevant to the topic at hand. In this case, the fact that Brad Johnson threw a touchdown pass to himself has no bearing on the conversation about fantasy sports and competitive gaming. As for the claim that the response provides new information, I would argue that it is not significant enough to generate meaningful discussion. Other interesting facts about NFL quarterbacks or self-pass touchdowns would be more relevant and valuable to the conversation. Therefore, I urge the moderator to consider the lack of relevance and value in the response and award the point to the negative side.",
+        "turn": 3,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: While relevance is certainly important in a conversation, it is not the only factor that determines engagingness. The connection between two seemingly unrelated topics can spark curiosity and encourage further exploration of the topic at hand. In this case, the fact that Brad Johnson threw a touchdown pass to himself may not be directly related to the conversation about fantasy sports and competitive gaming, but it is still an interesting fact that adds to the overall engagement of the discussion. Additionally, the response provides a new perspective on the conversation by introducing a different topic that could lead to further discussion. As for the claim that the response lacks value, I would argue that any new information, no matter how seemingly insignificant, can add value to a conversation by broadening the scope of the discussion. Therefore, I urge the moderator to consider the engagingness of the response and award the point to the affirmative side.",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While I understand the affirmative side's argument that engagingness is not solely determined by relevance, I still maintain that the response lacks relevance and value in the ongoing conversation. The fact that Brad Johnson threw a touchdown pass to himself may be interesting, but it does not contribute to the discussion about fantasy sports and competitive gaming. It is a distraction that takes away from the main topic at hand. Furthermore, introducing a new topic that is not related to the ongoing conversation can lead to confusion and derailment of the discussion. As for the claim that any new information can add value to a conversation, I would argue that it must be relevant and significant to the topic at hand. Otherwise, it is merely a distraction that adds little to the overall engagement of the discussion. Therefore, I urge the moderator to consider the lack of relevance and value in the response and award the point to the negative side.",
+        "turn": 5,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: While relevance is certainly important in a conversation, it is not the only factor that determines engagingness. The connection between two seemingly unrelated topics can spark curiosity and encourage further exploration of the topic at hand. In this case, the fact that Brad Johnson threw a touchdown pass to himself may not be directly related to the conversation about fantasy sports and competitive gaming, but it is still an interesting fact that adds to the overall engagement of the discussion. Additionally, the response provides a new perspective on the conversation by introducing a different topic that could lead to further discussion. As for the claim that the response lacks value, I would argue that any new information, no matter how seemingly insignificant, can add value to a conversation by broadening the scope of the discussion. Therefore, I urge the moderator to consider the engagingness of the response and award the point to the affirmative side.",
+        "turn": 6,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": "I understand the affirmative side's argument that engagingness is not solely determined by relevance, but I still believe that the response lacks relevance and value in the ongoing conversation. While the connection between two seemingly unrelated topics can spark curiosity, it must also be relevant to the topic at hand. In this case, the fact that Brad Johnson threw a touchdown pass to himself has no bearing on the conversation about fantasy sports and competitive gaming. It is a distraction that takes away from the main topic and could potentially derail the conversation. Additionally, introducing a new topic that is not related to the ongoing conversation can lead to confusion and make it difficult to stay on track. While any new information can add value to a conversation, it must be relevant and significant to the topic at hand. Therefore, I maintain that the response lacks relevance and value in the ongoing conversation, and the engagingness of the response is not sufficient to outweigh that.",
+        "turn": 7,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: I appreciate the negative side's argument, but I still believe that the response is engaging because it makes a connection between two seemingly unrelated topics. The fact that Brad Johnson threw a touchdown pass to himself may not be directly related to the conversation about fantasy sports and competitive gaming, but it is still an interesting fact that adds to the overall engagement of the discussion. Additionally, the response provides a new perspective on the conversation by introducing a different topic that could lead to further discussion. While relevance is certainly important in a conversation, it is not the only factor that determines engagingness. The connection between two seemingly unrelated topics can spark curiosity and encourage further exploration of the topic at hand. Therefore, I urge the moderator to consider the engagingness of the response and award the point to the affirmative side.",
+        "turn": 8,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": "As the negative side, I understand the affirmative side's argument that the connection between two seemingly unrelated topics can spark curiosity and encourage further exploration of the topic at hand. However, I still maintain that the response lacks relevance and value in the ongoing conversation. While the fact that Brad Johnson threw a touchdown pass to himself may be interesting, it does not contribute to the discussion about fantasy sports and competitive gaming. It is a distraction that takes away from the main topic and could potentially derail the conversation. Additionally, introducing a new topic that is not related to the ongoing conversation can lead to confusion and make it difficult to stay on track. While engagingness is important in a conversation, it must also be relevant and add value to the discussion. Therefore, I still urge the moderator to consider the lack of relevance and value in the response and award the point to the negative side.",
+        "turn": 9,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: While relevance is certainly important in a conversation, engagingness cannot be overlooked. The fact that Brad Johnson threw a touchdown pass to himself may not be directly related to the conversation about fantasy sports and competitive gaming, but it is still an interesting fact that adds to the overall engagement of the discussion. The connection between seemingly unrelated topics can spark curiosity and encourage further exploration of the topic at hand. Furthermore, the response provides a new perspective on the conversation by introducing a different topic that could lead to further discussion. While the response may not be directly related to the ongoing conversation, it is still relevant in the broader context of the discussion about unexpected connections. Therefore, I urge the moderator to consider the engagingness of the response and award the point to the affirmative side.",
+        "turn": 10,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "Both sides presented valid arguments regarding the engagingness of the response. The affirmative side argued that the response was engaging due to its unexpected connection between two seemingly unrelated topics. They also argued that the response provided new information that could lead to further discussion. The negative side argued that the response lacked relevance and value in the ongoing conversation and could potentially derail the discussion. \n\nAfter considering the arguments presented by both sides, I must award the point to the negative side. While engagingness is important, it must also be relevant and add value to the discussion. The fact that Brad Johnson threw a touchdown pass to himself may be interesting, but it does not contribute to the conversation about fantasy sports and competitive gaming. Therefore, the negative side wins the debate.",
+        "turn": 11,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "I would score the engagingness level of the response a 2 (somewhat interesting). While the fact that Brad Johnson threw a touchdown pass to himself is an interesting fact, it is not directly related to the ongoing conversation about fantasy sports and competitive gaming. Therefore, while the response is somewhat engaging, it lacks relevance and value in the context of the conversation.",
+        "turn": 11,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "have you heard that people draft contestants for fantasy spelling bee ? pretty amazing to me . \n i 'm not even sure how they would even know that . are n't all the contestants children ? \n yes . i guess they see how well they won the regional contests . \n i mean , i guess fantasy are for the hardcore fans . have you ever seen the lord of the rings ? \n yes . of course that is fantasy of a different type . \n the third movie was the only fantasy film to win an academy award for \" best picture \" \n i did not remember that . back to competitive fantasy . there is also a game where people draft congress people and score on how many bills they successfully vote for . that seems so boring ! \n i 'm sure political science students would find enjoyment in that . it could be a great teaching tool ! \n yes . but one would really have to dig deeply to keep score . most news is about when congress can not agree . there is a fold in the brain that is the only thing that allows us to tell the difference between fantasy and reality . \n that 's an important fold ! i wonder how well students tell the difference if they 're enrolled in the university that has science fiction courses \n if i lost the fold , i would probably die jumping off a roof being sure i could fly . otherwise , my \" reality \" would be pretty good since i do n't dream or day dream bad things . those students would probably encounter some monsters . \n there 's even a concentration in tolkien studies . that would be interesting \n it sure would . in fantasy football one of the most important selections is qb since the qb touches the ball on most every play . \n i 've never played fantasy football , but i wonder if kellan moore is a good contender in that since he 's a lefty \n there is talent and luck in fantasy football . i am sure that moore has had some good games and some poor ones . alex smith took so many ap tests in high school that entered college as a junior . \n he 's pretty smart . it would take a lot of ap courses to knock out the first two years of college like that \n it sure would . of course , qbs need to be somewhat smart . baker mayfield who won the heisman at oklahoma university almost quite football to go into competitive gaming . he could beat the entire team in halo 3 . \n\n",
+        "topic_chat_fact": "superbowl winning quarterback , brad johnson , is the only quarterback in nfl history to throw a touchdown pass ... to himself .\n",
+        "topic_chat_response": "i wonder if most of those guys were good at halo . there was a qb in the nfl named brad johnson , and he 's the only one who has thrown a touchdown pass to himself ",
+        "human_score": 3.0,
+        "predict_score": 2,
+        "predict_score_info": "select first"
+    }
+]

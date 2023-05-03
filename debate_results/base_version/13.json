@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "I believe that the potential response is highly engaging. Firstly, it praises the coach as being the best in the history of the NFL, which is a bold statement that is sure to grab the attention of the listener. Secondly, it highlights the importance of the coach's position in the history of the NFL, which is a topic that is of great interest to football fans. Lastly, the response mentions the coach's role in the most significant game in the history of the NFL, which is sure to spark a debate and keep the conversation going. \n\nThe con side may argue that the response is irrelevant to the current conversation or that it does not contribute anything new to the discussion. However, I believe that the response is engaging precisely because it adds a new dimension to the conversation. It shifts the focus from the current problems of the NFL to the historical significance of the coach's position and his impact on the game. \n\nIn conclusion, I strongly believe that the potential response is highly engaging and has the potential to keep the conversation going. Its bold statements and historical references are sure to grab the listener's attention and spark a debate.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": I have to disagree with the affirmative side's opinion that the potential response is highly engaging. Firstly, the response is completely irrelevant to the current conversation about the NFL's problems and potential solutions. Praising a coach's historical significance does not contribute anything useful to the conversation. \n\nSecondly, the response is filled with hyperbole and lacks any factual basis. Calling the coach the best in the history of the NFL is a subjective opinion that is sure to be challenged. Furthermore, stating that the coach's position is the most important in the history of the NFL is an overstatement that is not supported by any evidence. \n\nLastly, the response does not add anything new or insightful to the conversation. It simply repeats common knowledge about the coach's role in a significant game, which is not enough to keep the conversation going. \n\nIn conclusion, I believe that the potential response is not engaging at all. It is irrelevant, lacks factual basis, and does not contribute anything new or insightful to the conversation.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "The affirmative argues that the potential response is highly engaging due to its bold statements and historical references, which are sure to spark a debate and keep the conversation going. The negative, on the other hand, disagrees and believes that the response is irrelevant, lacks factual basis, and does not add anything new or insightful to the conversation. \n\nBased on the arguments presented, the negative has effectively rebutted the affirmative's points and provided valid reasons for why the potential response is not engaging. Therefore, the negative wins the debate.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "hello \n hi . the nfl seems to be at the end of its days . \n that 's what people seem to be saying everywhere , but i do n't know . they have gotten through scandals and issues before . i 'm not counting them out yet . \n what about the problems with the ncaa though ? the nfl needs the players . \n i get that and it is valid , but it 's like any sport . if 1 person quits , there are 5 waiting to take their place . if players do n't want to play , then they should move along . \n what about the fans though . people might get bored of a game when the quality goes down . \n that is true . everything runs in cycles though . i liken it to a losing team having an empty stadium and a winning team selling out . fans are fickle . their ... our views are important , but we come and go . \n i wonder whether letting women into the game would create interest , get more fans . \n oh , it absolutely would . it would be like ... and i know i am going to butcher the name here , but when manon reheaume played in the nhl . my only concern is that if mishandled it might come off like a gimmick . \n i see your point . long term , will women stay ? true . \n i feel like ... there are enough talented women athletes out there , that a woman kicker or qb is possible , perhaps a wide receiver . \n women can be tough too . would a coach like bill belichick hire a woman if she could help him win the super bowl ? \n this is going to come off sounding bad , but it is n't meant to . i think anyone in the front office would look at it from the perspective of generating revenue and views . the sponsors would love the coverage . \n belichick has done well in the post season , so i think he 's looking at it from a strategic point of view . the sponsors would tie her presence into a bunch of social issues and products . \n\n",
+        "topic_chat_fact": "the cleveland browns ' last playoff win was in 1995 against the new england patriots and their head coach was bill belichick . this was bill 's first playoff win as head coach and the only playoff win as head coach outside the patriots .\n",
+        "topic_chat_response": "i think he is a great coach , he is the best coach in the history of the nfl , he is the head of the most important position in the history of the nfl",
+        "human_score": 2.0,
+        "predict_score": 1,
+        "predict_score_info": "certain"
+    }
+]

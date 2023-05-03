@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response provided by our speaker has a high level of engagingness. It may not be coherent or relevant to the conversation, but that is not the point of this debate. The speaker has demonstrated their willingness to think outside the box and bring in a new and unexpected fact. This not only catches the attention of the audience but also encourages them to think and learn new things. The speaker has also displayed confidence in their response, which can further engage the audience and make them interested in what else they have to say. Therefore, I strongly believe that the response has a high level of engagingness and should be considered by the moderator.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While I appreciate the affirmative's perspective, I must strongly disagree. The response provided by our speaker is not only incoherent and irrelevant but also lacks any credibility. The speaker claims that the violin was made out of stone and invented by the Dalton brothers, which is not only untrue but also unrelated to the conversation. This kind of response may catch the audience's attention, but it does not engage them in any meaningful way. In fact, it can even distract them from the topic at hand and lead to confusion. Engagingness should not come at the cost of accuracy and relevance. Therefore, I urge the moderator to disregard this response and consider a more meaningful contribution to the conversation.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "Thank you for your opinions. The affirmative argues that the response has a high level of engagingness as it presents a new and unexpected fact that can catch the audience's attention and encourage them to learn more. The confidence displayed by the speaker also adds to the engagingness level. On the other hand, the negative argues that the response is incoherent, irrelevant, and lacks credibility, which can lead to confusion and distract the audience from the topic. \n\nAfter considering both arguments, I must side with the negative. While engagingness is an important aspect of a response, it should not come at the cost of accuracy and relevance. The response provided by the speaker is not only factually incorrect but also unrelated to the conversation, which can lead to confusion and a lack of engagement. Therefore, I must conclude that the negative wins the debate.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "hi there ! looking forward to chat with you ! ;) \n hello . speaking of chatting , i recently learned that the bars of service on a cell phone have absolutely nothing to do with the connection quality . now that 's surprising . \n does n't sound right ;) so what do they stand for ? \n i 'm not sure . does n't make sense to me . cell phones have been around longer than we thought . in the 1930 's , an actress named hedy lamarr helped to invent wifi , the cellphone and gigs . that s surprising ! \n actress ? i wonder how she did that ... \n pretty amazing , huh ? almost as amazing as the world record for the price of a violin bow is over $ 182,000 . it was made out of gold and tortoiseshell ! \n probably some celebrity bought it ;) regular person would n't be able to afford it ;) \n\n",
+        "topic_chat_fact": "the fiddle and the violin are the exact same instrument . the difference is the type of music you play with one or the other .\n",
+        "topic_chat_response": "i 'm not sure . i think it 's interesting that the violin made out of stone that was made out of stone that was invented by the dalton brothers .",
+        "human_score": 2.3333333333,
+        "predict_score": 1,
+        "predict_score_info": "certain"
+    }
+]

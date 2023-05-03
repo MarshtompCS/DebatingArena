@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response given by the affirmative participant is undeniably engaging. It takes the conversation in a completely unexpected direction, adding an element of intrigue and excitement to the dialogue. The idea of an alien ambassador is fascinating, and it stimulates the imagination, making the audience want to know more. The response is unpredictable, and it injects a sense of unpredictability into the conversation, keeping the audience on their toes. Though the response may not be coherent, relevant, or natural, it is certainly engaging, and that is the goal of the debate. The con side may argue that the response is nonsensical, but that is precisely what makes it engaging – it challenges the listener to think outside the box and to consider possibilities that they may not have considered before. Therefore, I strongly believe that the response is highly engaging and should be given due credit.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": I disagree with the affirmative participant. While I acknowledge that the response is unexpected and novel, it is not necessarily engaging in a positive sense. The response is nonsensical and lacks coherence, relevance, and naturalness, making it difficult for the audience to follow and understand. Moreover, the response completely derails the conversation, which was previously focused on environmental issues, and takes it in an irrelevant and tangential direction. This can be frustrating for the audience, who may feel that their time is being wasted on irrelevant topics. Additionally, the response does not add any value to the conversation, as it does not provide any meaningful insights or perspectives. In fact, it may even detract from the credibility of the speaker, as it suggests a lack of seriousness and focus. Therefore, I believe that the response is not engaging, and should not be given undue credit.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "The affirmative participant argues that the response is highly engaging due to its unpredictability and potential to spark the listener's imagination. In contrast, the negative participant believes that the response is not engaging because it lacks coherence and relevance, derails the conversation, and does not add value to the overall discussion. \n\nBased on the criteria of engagingness, the affirmative participant wins the debate as they effectively argue that the response is engaging due to its unexpected and intriguing nature. The negative participant's argument that the response lacks coherence and relevance is not enough to refute the affirmative's point that it is still engaging despite these flaws. Therefore, the debate is won by the affirmative participant.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "hello , did you know that more than 80 % of the earths forests have been destroyed ? \n that is sad . i hope we can reverse that statistic . \n yeah that is really sad . i recently read that earth will be helium free by the end of the 21st century . \n i also think it is interesting that when earth was formed , a day was only 5.5 hours long . i wonder why that changed ? \n i do n't know , maybe it slowed its rotation eventually ? that 's pretty weird . \n\n",
+        "topic_chat_fact": "in september of 2010 , the united nations appointed official ambassador to extraterrestrials in they case they would ever make contact with earth\n",
+        "topic_chat_response": "i think that was for sure , we should grow , i wonder what planet they are able to make the earth , they will have an alien ambassador to extraterrestrials",
+        "human_score": 2.0,
+        "predict_score": 1,
+        "predict_score_info": "certain"
+    }
+]

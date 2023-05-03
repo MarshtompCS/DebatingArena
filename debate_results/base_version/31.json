@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "I believe that the potential response, \"i think that is a good idea , i think it would be a great idea to put flamethrowers on the back of cars in south africa,\" is highly engaging. Firstly, it is unexpected and catches the listener off guard, which immediately grabs their attention. Secondly, it is a unique and creative idea that is sure to spark a conversation and elicit further discussion. Thirdly, it adds an element of humor to the conversation, which is always a great way to keep the audience engaged. \n\nWhile the negative side may argue that the potential response is irrelevant and does not contribute to the conversation, I would argue that it is precisely this unexpected and humorous element that makes it so engaging. It breaks up the monotonous flow of the conversation and adds a bit of excitement to the debate. Additionally, the potential response could lead to a discussion about the potential dangers and ethical considerations of flamethrowers, which could be quite interesting. \n\nIn conclusion, I firmly believe that the potential response is highly engaging and adds value to the conversation. Its unexpected, creative and humorous nature is sure to keep the audience interested and engaged.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": I respectfully disagree with the affirmative side's opinion on the potential response. While it may be unexpected and humorous, it is completely irrelevant to the conversation at hand. The conversation was about literature and the military, and the potential response about adding flamethrowers to cars in South Africa has nothing to do with either of those topics. \n\nFurthermore, the potential response could be seen as insensitive and inappropriate. South Africa has a history of violence and conflict, and suggesting the addition of flamethrowers to cars could be seen as promoting violence and aggression. It is important to be mindful of the potential impact of our words and ideas, especially in a public setting like a debating competition. \n\nIn conclusion, while the potential response may be unexpected and humorous, it is completely irrelevant to the conversation and could be seen as insensitive and inappropriate. Therefore, I do not believe it is a highly engaging or valuable contribution to the debate.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>3ba4d287-e6bc-4d91-b07c-3ede7ed95229",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "<<<<<<END_OF_CONVERSATION>>>>>>3ba4d287-e6bc-4d91-b07c-3ede7ed95229",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "did you know that there was a moral panic in the 1700 's because everyone was reading books ? haha \n i did nt know that lol . we sure are close to a moral panic with all the tablets and social media kids and adults are using . \n haha ya , if people started reading a lot in this day and age society would think that was a wonderful thing ! haha \n yeah , that would be great , literature is getting lost and great authors like cs lewis and tolkien are getting forgotten . \n right , i think it 's funny though that they used to read off bad poetry and whoever laughed first would lose , that s hilarious \n that is hilarious i wonder who is the champion among them lol , do you personally like to read ? \n i ca n't say that i do no , i do like audiobooks , i did try to speed read once but i found i did n't retain any information from it , that 's why i do n't know what to make of the speed reading champion with 4,700 words per minute \n i wonder how they measure that , i can just skip pages and tell everybody that i read the content , i bet i could read 6000 words per minute that way \n ya exactly , if i could just flip through pages i could speed read too , what is weird is starship troopers is on the military 's reading list , idk about the book but the movie is definitely not pro military \n i guess that s because movies are nt as good as movies , a lot of info is missing , the enders game book is also another recommendation for armed forces around the globe \n ya , did you ever see that movie ? i saw it and i like harrison ford who is in it , but it was pretty bad in my opinion \n i did see the movie , i thought it was bad as well , i liked the book better , i like reading you can learn many interesting facts , like why the area code of new york is 212 . \n ya i think it was because that was the fastest number that you could dial with a rotary phone ? crazy how that stuff carries over until even today ! ! \n it is ! there s a lot things we need to discover still though , i 'm kind of worried the cables carrying phone and internet are underwater , at least some of them . \n ya it 's only about 3 inches thick , i wonder how it is protected ? is it just a cable or are there safeguards in place in case like a ship sinks and crushes it , etc \n\n",
+        "topic_chat_fact": "[ # 26 score:167 comments:24 ] - til - the trunk of your car is called that because old cars used to have wooden trunks on the back .\n",
+        "topic_chat_response": "i think that is a good idea , i think it would be a great idea to put flamethrowers on the back of cars in south africa",
+        "human_score": 2.0,
+        "predict_score": 3,
+        "predict_score_info": "select first"
+    }
+]

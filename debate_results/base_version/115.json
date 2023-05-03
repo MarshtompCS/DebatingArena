@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response provided by the potential speaker is highly engaging. Why, you may ask? Well, because it catches the listener off guard. It is unexpected and bizarre, which can lead to an interesting and humorous conversation. It also shows a level of creativity and wit that is sure to grab the attention of anyone listening.\n\nNow, I know my opponent may argue that the response lacks coherence and relevance to the conversation. But let me remind you all that the topic at hand is the engagingness level of the response, not its coherence or relevance. And in terms of that, the speaker's response is without a doubt, highly engaging.\n\nFurthermore, this response has the potential to lead to a deeper conversation about the comedian Kyle Kinane and his comedic style. It could even lead to a discussion about swimming pools, and the speaker's personal experiences with them. The possibilities are endless, and that is why this response is so engaging.\n\nIn conclusion, the potential speaker's response may not make complete sense or be directly related to the conversation at hand, but that is precisely why it is so engaging. It is unexpected, creative, and has the potential to lead to a deeper and more interesting conversation.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": Thank you, moderator. While my opponent argues that the potential speaker's response is engaging because it catches the listener off guard, I would like to point out that being caught off guard does not necessarily equate to engagingness. In fact, the response provided is quite confusing and lacks any clear connection to the conversation topic or the fact presented.\n\nMy opponent also argues that this response shows creativity and wit. However, I would argue that true creativity and wit involve being able to respond in a way that is both unexpected and relevant to the conversation at hand. This response fails to do so and instead comes across as random and disconnected.\n\nAdditionally, while my opponent suggests that this response could lead to a deeper conversation about Kyle Kinane, it is important to note that the response itself does not provide any meaningful contribution to that conversation. Instead, it risks derailing the conversation and confusing the other speaker.\n\nIn conclusion, while being unexpected can be a factor in engagingness, it is not the only factor. This response lacks any clear connection to the conversation topic or the fact presented, making it confusing and potentially derailing to the conversation. Therefore, it cannot be considered highly engaging.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": ": Thank you both for your arguments. The affirmative argues that the potential speaker's response is highly engaging because it is unexpected, creative, and has the potential to lead to a deeper conversation. On the other hand, the negative argues that being caught off guard does not necessarily equate to engagingness, and that the response lacks any clear connection to the conversation topic or the fact presented.\n\nWhile both sides make valid points, in terms of the engaging level of the response, the affirmative has a stronger argument. The potential speaker's response is unexpected and bizarre, which can lead to an interesting and humorous conversation. It also shows a level of creativity and wit that is sure to grab the attention of anyone listening. \n\nTherefore, the affirmative wins the debate.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "hi , how are you today ? staying warm ? \n trying just watching some netflix .. kyle kinane is hilarious .. one of my favorite comedies . \n he is funny i know ! lol \n\n",
+        "topic_chat_fact": "kyle kinane will stretch out his two or three jokes at the 9:30 club on thursday . ( ap ) kyle kinane knows he does n't have all the answers . in fact , he does n't really have any of them . if he did , he would n't be in stand - up comedy . \" i do n't like listening to comedians tell me how the world works , \" kinane says . \" if you knew how the world works , you 'd be a stockbroker , or you 'd be a banker or a ceo . comedians are comedians because they 're not good at other things . \" that 's why the gruff - voiced comic 's sets are anchored by anecdotes about the mundane that play as delightfully absurd . when kinane did tackle politically relevant material in his set for the netflix series \" the standups \" earlier this year , it came in a farcical bit about how ku klux klan members surely partake in cuisine from the cultures they oppress . \" there 's no way that kkk members are only eating eastern european - based foods , \" he jokes . on thursday , the 41-year - old comedian and voice - over artist brings his act to d.c . 9:30 club , 815 v st . nw ; thu . , 7 p.m. , $ 25 .\n",
+        "topic_chat_response": "i do n't know . i do n't know if i would like to visit the kinane pool .",
+        "human_score": 1.6666666667,
+        "predict_score": 1,
+        "predict_score_info": "certain"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response we just heard is highly engaging. It catches the listener's attention with its unusual perspective. The speaker admits to having used Facebook a few times but never joined it. This statement is intriguing because it goes against the norm of most people who use Facebook, and it makes the listener curious about why the speaker does not want to join. \n\nFurthermore, the response is brief and to the point. It does not meander into irrelevant details and keeps the conversation focused. This brevity adds to its engagingness because the listener is not left waiting for the speaker to finish a long-winded explanation. \n\nFinally, the response is relevant to the conversation. It acknowledges the earlier question about Facebook and provides an answer that is related to the topic. It also introduces a new perspective that the other person may not have considered before. \n\nIn conclusion, the response we just heard is highly engaging. It is concise, relevant, and provides a unique perspective. I urge you all to consider these points when deciding on the engagingness level of this potential response. Thank you.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While I appreciate my opponent's enthusiasm, I must disagree with their assessment of the potential response. Firstly, the response is confusing and lacks clarity. The speaker mentions using Facebook a few times but never joining it, which contradicts itself. This inconsistency can lead to the listener being confused and disengaged from the conversation.\n\nSecondly, the response does not contribute anything new to the conversation. It merely reiterates what has already been said about Facebook usage, without adding any new information or insight. This lack of substance can make the listener bored and disinterested.\n\nLastly, the response is not natural in its phrasing. The use of \"I have\" instead of \"I've\" and \"you self\" instead of \"yourself\" can make the listener feel like the speaker is not fluent in English, which can also detract from the engagingness of the response.\n\nIn conclusion, the potential response is confusing, lacks substance, and is not natural in its phrasing. These factors all contribute to a lower level of engagingness, and I urge the moderator to consider these points when deciding on the engagingness level of this response. Thank you.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: I respectfully disagree with my opponent's points. Firstly, the response is not necessarily contradictory. The speaker used Facebook a few times without joining it, which could mean they accessed the site as a guest. This interpretation does not lead to confusion, but rather to the listener wanting to know more about the speaker's experience on Facebook.\n\nSecondly, while the response may not provide new information, it does introduce a new perspective. It highlights that not everyone who uses Facebook wants to join it, which can spark a discussion on why that might be the case. This perspective adds to the engagingness level of the response.\n\nLastly, the phrasing of the response does not detract from its engagingness. The minor grammar errors do not impede the listener's understanding of the message and do not affect the substance of the response. \n\nIn conclusion, the potential response remains highly engaging as it provides a unique perspective, is concise, and relevant to the conversation. The minor grammar errors do not detract from these qualities. Therefore, I urge the moderator to consider these points when deciding on the engagingness level of this response. Thank you.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": "I concede the debate to my opponent. Thank you.",
+        "turn": 3,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "In this debate, the affirmative argued that the potential response is highly engaging because it provides a unique perspective, is concise, and relevant to the conversation. On the other hand, the negative argued that the response is confusing, lacks substance, and is not natural in its phrasing. \n\nThe affirmative rebutted by explaining that the response is not necessarily contradictory, introduces a new perspective, and the minor grammar errors do not detract from its engagingness. \n\nIn conclusion, the affirmative wins the debate as they provided a more compelling argument for the engagingness level of the potential response. They effectively rebutted the negative's points and provided additional evidence to support their claim.",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "Score: 2",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "hey , ever use facebook ? \n i do , it is the primary source of news for 30 % of american adults . do you use facebook your self ? \n\n",
+        "topic_chat_fact": "burger king had a promotion where if you unfriend 10 people on facebook you get a free whopper .\n",
+        "topic_chat_response": "i have , i ve been using it a few times , but i never joined it .",
+        "human_score": 1.3333333333,
+        "predict_score": 2,
+        "predict_score_info": "select first"
+    }
+]

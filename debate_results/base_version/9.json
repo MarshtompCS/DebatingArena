@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response given by the speaker is undeniably engaging. It is a surprise, and it is not related to the previous topic, which makes it more interesting. It also has a conversational tone that encourages further discussion. \n\nNow, the negative side may argue that the response is completely irrelevant to the topic at hand. However, we must remember that the moderator has the authority to decide when to stop the debate. Thus, there is still the possibility that the conversation can go back on track. \n\nMoreover, the response given by the speaker is a personal question. It is an excellent way to build rapport and connection with the person they are conversing with. It is a simple and effective way to get to know someone better. \n\nIn conclusion, the response given by the speaker is engaging because of its surprise factor, conversational tone, and personal nature. It is an excellent way to build rapport and connection with the person they are conversing with. Let us not forget that the moderator still has the power to redirect the conversation back to the topic at hand. Thank you.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": I must respectfully disagree with my opponent's argument. While it is true that the response is unexpected and has a conversational tone, it is not engaging in the context of the conversation at hand. The topic of discussion is the Raiders' loss and the absence of Khalil Mack, and the response has nothing to do with it. \n\nFurthermore, the personal question asked by the speaker is not relevant to the conversation. It does not add any value or insight to the topic at hand. Instead, it derails the conversation and wastes valuable time that could be used to discuss the original topic. \n\nLastly, while the moderator may have the power to redirect the conversation, it does not excuse the fact that the response is irrelevant and does not contribute to the discussion. \n\nIn conclusion, the response given by the speaker is not engaging in the context of the conversation. It is irrelevant and does not add any value or insight to the topic at hand. Thank you.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "The affirmative side argues that the response is engaging due to its surprise factor, conversational tone, and personal nature. They also suggest that the moderator can redirect the conversation back to the topic at hand. The negative side disagrees, stating that the response is not engaging in the context of the conversation, is irrelevant, and does not add any value or insight to the topic at hand.\n\nBased on the arguments presented, the affirmative side wins the debate as they effectively argue that the response is engaging due to its conversational tone and personal nature. However, it should be noted that the moderator can still redirect the conversation back to the original topic.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "i think that jon gruden is a sensible loss for the team , \n what do you mean by sensible loss ? i think john gruden is a huge mistake for the team . \n well i think his a good player , hard to replace , that s what i meant or at least in the raiders team his become an important piece for the coach \n john gruden is an nfl head coach . he 's not a player . the 33 - 13 loss to the rams was just the beginning of a miserable season . are you familiar with the nfl ? \n oh i see , i guess i m confusing him with a player of the team , what was his name i think it was khalil mack , and i do follow some games what about you ? \n football is one of my favorite sports and i follow all 32 teams . khalil mack was traded to the bears by john gruden for some picks . they definitely felt his absence . i do n't know why they did n't just resign him . \n maybe he demanded a high salary ? what is your favorite nfl team ? \n\n",
+        "topic_chat_fact": "the raiders sacked goff only once , on a play during which bruce irvin forced a fumble . other than that , the oakland defense could put almost no pressure on goff . the absence of mack , the former nfl defensive player of the year , was glaring . in the first half sunday night , mack had a sack , a forced fumble , a fumble recovery , an interception and a touchdown on defense . he and the bears could not sustain that , and they succumbed to the second - half exploits of packers quarterback aaron rodgers . but mack reinforced what a game - changing , difference - making player he is . he left little doubt that he is worth the six - year , $ 141 million contract given to him by the bears , making him the league 's highest - paid defensive player . [ the nfl teams that have serious reasons to worry , versus the ones that do n't ] mack , while still with the raiders , had been holding out , seeking such a deal . the raiders did n't want to give it to him . they have a $ 125 million quarterback in carr . they have a $ 100 million coach in gruden . they drew the line at handing out another mammoth deal , not wanting to further strain their budget or push the boundaries of the salary cap . they regarded the king 's ransom of draft picks put forth by the bears , including a pair of first - rounders , as an offer they could n't refuse . in truth , they could have refused it .\n",
+        "topic_chat_response": "i like a little bit . i have a lot of friends . i do nt have a team that great fans are a fan . i would like to know why they would do that .",
+        "human_score": 1.0,
+        "predict_score": 1,
+        "predict_score_info": "certain"
+    }
+]

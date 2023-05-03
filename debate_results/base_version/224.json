@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response that was just presented is highly engaging. It captures the attention of the listener by highlighting a unique and interesting fact about Google's new employees. The use of a rhetorical question at the end of the response adds an element of curiosity, leaving the listener wanting to know more. \n\nFurthermore, the response is relevant to the conversation. While the conversation was previously focused on science and movies, the response brings a new and unexpected topic to the table, adding variety and keeping the conversation engaging. \n\nIn addition, the response is concise and to the point. It does not ramble on or veer off topic, but instead provides a quick and interesting fact that adds value to the conversation. \n\nTherefore, I strongly believe that this response is highly engaging and adds value to the conversation.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": I disagree with my opponent's statement that the response presented is highly engaging. While the use of a rhetorical question at the end may add curiosity, it does not necessarily make the response highly engaging.\n\nMoreover, the fact presented about Google's new employees is not relevant to the ongoing conversation about movies and science. It is a random and tangential fact that does not add value to the conversation. In fact, it may even disrupt the flow of the conversation and divert it away from the main topic.\n\nAdditionally, the response lacks any connection to the previous statements made in the conversation. It does not build upon or relate to any of the previous points discussed. This lack of coherence can make the listener feel disconnected and disengaged from the conversation.\n\nTherefore, I argue that the response presented is not highly engaging and does not add value to the conversation. It is random, irrelevant, and lacks coherence.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "Both sides have presented their views on the engaging level of the potential response. The affirmative participant believes that the response is highly engaging due to its relevance, conciseness, and use of a rhetorical question. The negative participant disagrees and argues that the response is not engaging, as it is irrelevant, lacks coherence, and disrupts the flow of the conversation.\n\nBased on the arguments presented, the winner of the debate is the negative participant. They effectively countered the points made by the affirmative participant and presented stronger arguments against the engaging level of the potential response.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "did you see crazy rich asians ? \n no i have n't . i heard it was good . \n i have not yet either but i am aware of it 's cultural impact . it was made from a novel . apparently it is a very good romantic comedy . \n my mother like it . i think it stars michelle yeoh , henry golding and constance wu , right ? \n it does . apparently the basic premise is that a woman is engaged to a man and when she goes to meet his family discovers that he is insanely wealthy . his mother rejects her due to her less affluent background . \n if i remember correctly , jon m chu is the director . \n yes he is . it was also the first movie to feature an all - asian cast in hollywood in more than 20 years which is quite the accomplishment and i 'm glad that it did well . asians seem very underrepresented in film . \n the movie is 121 minutes long , which is just right and is pg-13 . \n that makes it accessible to a bigger audience which is good because then more asian - americans can see themselves represented on screen . \n well , lets switch topics . are you a science person . , earth is the 3rd planet from the sun . it is also the only astronomical object known to harbor life . \n i am a little . i enjoy learning about it . i was aware of those facts . i also know that if we viewed the entire earth 's history as a 24 hour period , humans would only represent 1 minute and 17 seconds of that day . that is a mind blowing stat . \n this is mind blowing . thank god for jupiter . it saves earth from a lot of asteroids heading toward us . \n that is really surprising since that planet is mostly compromised of gas . we do not even know if there is any solid land there . i wonder how it takes the impact first in this case ? \n it 's very interesting . so is the fact that the sun is 4x less dense than earth . \n i know it is much larger but i do n't think it has any solidity to it so that 's interesting . another science fact is that when earth was formed a day was only 5.5 hours long . \n i did n't know that . i wonder why . there is a place on earth where there is less gravity than the rest of the planet . it is the hudson bay region of canada . \n i wonder how much affect that has ? is it enough to change weights in any way ? i wonder . i do also know that we are running out of helium and will essentially be out of the gas by the end of the 21st century . \n\n",
+        "topic_chat_fact": "new google employees are called ' nooglers ' and are given a propeller beanie cap to wear on their first friday .\n",
+        "topic_chat_response": "i 'm not sure . i wonder if the employees who wear propeller cap is called nooglers ?",
+        "human_score": 1.6666666667,
+        "predict_score": 1,
+        "predict_score_info": "certain"
+    }
+]

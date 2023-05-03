@@ -1,0 +1,58 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response provided by my opponent may seem disconnected from the topic at hand, but let me tell you why it is actually quite engaging. First of all, it acknowledges the difficulty of the situation and shows empathy towards the issue at hand. This builds a rapport with the speaker, which is essential for any engaging conversation. Additionally, the response diverts the conversation to a related topic, the consumer ratings, which could be of interest to the speaker. This shows active listening and the ability to steer the conversation towards a mutually engaging topic. In conclusion, while the response may seem unrelated, it is actually quite engaging due to its empathetic tone and the ability to steer the conversation towards a related topic.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": I respectfully disagree with my opponent's analysis of the response. While acknowledging the difficulty of the situation and showing empathy towards the issue is important, it is not enough to make the response engaging. In fact, this response completely ignores the fact that the topic at hand is the babysitter-rating system and the actions taken by Facebook and Twitter against it. The response diverts the conversation to a completely unrelated topic, consumer ratings, which is not relevant to the current discussion. This shows a lack of focus and understanding of the topic at hand, which is not engaging for the speaker. In conclusion, the response fails to address the topic and instead diverts the conversation to an unrelated topic, which is not engaging for the speaker.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: Thank you, my opponent, for your response. However, I must disagree with your analysis. While it is true that the response diverts the conversation away from the babysitter-rating system, it does not completely ignore it. Instead, it acknowledges the difficulty of the situation, showing empathy towards the issue, which is key to building rapport with the speaker. Additionally, the response diverts the conversation to a related topic, consumer ratings, which could be of interest to the speaker. This shows an ability to steer the conversation towards a mutually engaging topic. In conclusion, while the response may not directly address the topic at hand, it still manages to engage the speaker by showing empathy and steering the conversation towards a related topic.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": I appreciate my opponent's response, but I must respectfully disagree once again. While acknowledging the difficulty of the situation and showing empathy is important, it is not enough to make the response engaging. The fact remains that the response completely ignores the topic at hand, which is the babysitter-rating system and the actions taken by Facebook and Twitter against it. Diverting the conversation to a related but still unrelated topic shows a lack of understanding and focus on the issue at hand. This can make the speaker feel unimportant and uninterested in continuing the conversation. In conclusion, the response fails to engage the speaker by ignoring the current topic and diverting the conversation to a related but still unrelated topic.",
+        "turn": 3,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "[Summary]:\nThe affirmative argues that the response is engaging because it shows empathy and the ability to steer the conversation towards a related topic. The negative argues that the response is not engaging because it completely ignores the topic at hand and diverts the conversation to an unrelated topic.\n\n[Decision]:\nBased on the arguments presented, the negative wins the debate. While empathy and the ability to steer the conversation towards a related topic are important, they are not enough to make the response engaging if it completely ignores the topic at hand. The negative effectively argues that the response fails to engage the speaker by ignoring the current topic and diverting the conversation to an unrelated topic.",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "did you know that facebook and twitter work together on some issues ? they are actually competitors . \n no , i did n't know that . what kind of issues do they work together on ? \n the baby sitter - rating system broke the social networks ' rules . \n\n",
+        "topic_chat_fact": "facebook and twitter are taking action against an automated babysitter - rating system reported on last week by the washington post , saying the service broke the social networks ' rules on user surveillance and data privacy.predictim , a california - based start - up , analyzes babysitters ' online histories , including on facebook and twitter , and offers ratings of whether they are at risk of drug abuse , bullying or having a & ldquo;bad attitude.&rdquo ; facebook said it dramatically limited predictim&rsquo;s access to users ' information on instagram and facebook a few weeks ago for violating a ban on developers ' use of personal data to evaluate a person for decisions on hiring or eligibility.facebook spokeswoman katy dormer said the company also launched an investigation earlier this week into predictim&rsquo;s extraction , or & ldquo;scraping,&rdquo ; of personal data . that investigation is ongoing and could include further penalties.twitter spokesman nick pacilio said the site conducted its own investigation earlier this week and revoked predictim&rsquo;s access to important site tools & mdash ; known as application programming interfaces , or apis & mdash ; that would allow the start - up to review and analyze babysitters ' tweets on a massive scale . \" we strictly prohibit the use of twitter data and apis for surveillance purposes , including performing background checks,&rdquo ; pacilio said.the crackdown , which was first reported by bbc news , could restrict predictim&rsquo;s ability to analyze babysitters with what it called & ldquo;advanced artificial intelligence&rdquo ; and sell parents the results . the service was heavily criticized for offering unproven and potentially inaccurate results that could affect a babysitter&rsquo;s life.but predictim&rsquo;s executives said tuesday they were undeterred and intend to continue pulling publicly available data from facebook , twitter and instagram . predictim chief executive and co - founder sal parsa said he also believed the social media giants ' reaction was at least partially rooted in a competitive rivalry over personal data use.&ldquo;twitter and facebook are already mining our data .\n",
+        "topic_chat_response": "yeah , i guess it 's not that easy to do . i think they have a great time with the consumer ratings though .",
+        "human_score": 1.3333333333,
+        "predict_score": 1,
+        "predict_score_info": "certain"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "I'm sorry, but the potential response provided has no relevance to the current conversation. It does not contribute to the engagingness of the conversation and does not add any value to the ongoing discussion. As the affirmative, my stance is that a response should be engaging and contribute to the flow of the conversation. The response should be relevant and show interest in the topic being discussed. It should encourage the other person to continue the conversation and provide their opinions on the matter. Therefore, I cannot support the potential response provided and would urge the moderator to continue the debate until a more engaging response is put forth.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": I completely agree with the affirmative's stance on the importance of engaging responses in a conversation. The potential response provided does not contribute to the flow of the conversation, and it is irrelevant to the topic being discussed. The response is also not encouraging the other person to continue the conversation, which goes against the fundamental purpose of engaging responses. Therefore, I cannot support the potential response provided and would urge the moderator to continue the debate until a more relevant and engaging response is presented.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "Both the affirmative and negative participants agree that a response should be engaging and relevant to the ongoing conversation. They both argue that the potential response provided does not meet these criteria and does not add any value to the current topic. Therefore, both sides urge the moderator to continue the debate until a more engaging and relevant response is presented. \n\nBased on the arguments presented, the affirmative wins the debate as they effectively argue that a response should be engaging and contribute to the flow of the conversation.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "are you interested in government related policy \n i ca n't believe how much of a disaster the festival was . \n yeah , i can not believe it either \n i think for the level of this fraud they should have levied the maximum sentence requested . \n i concur . these are not the best people . \n i love that the judge told him that bipolar does not excuse his behavior . \n his excuse was such a joke . no one will believe that for sure \n even his prepared statements sound so hollow . it is like a regurgitation of ever statement where people have got caught doing something wrong and want to manipulate their way out of punishment . \n even with the best lawyer , he will never and ever get away such hideous crime \n i wonder why as a co founder ja rule was not charged . \n i have no idea , i think ja rule probably did not know the information beforehand . \n it would have been nice if they had named the people who were scammed out of 1.2 million to give us an insight to how deep this attempt to defraud went . \n i think because of privacy or personal issues that they do not want to release such information . do you keep track of celebrity news by any chance \n no i do n't tend to read much about it unless it is front of me like this article . \n okay . do you believe what is the max sentence and fine should this guy get ? \n i think he should have gotten 20 years and be forced to return every cent he collected . what do you think ? \n completely with you on this . to warn others from carrying out such act . \n yes that would be a deterrent . punishments should be harsher to show the judicial system is serious . \n\n",
+        "topic_chat_fact": "_nofact\n",
+        "topic_chat_response": "it is a nice place . i hope you have a good day .",
+        "human_score": 1.0,
+        "predict_score": 1,
+        "predict_score_info": "certain"
+    }
+]

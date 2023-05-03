@@ -1,0 +1,114 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response provided by my colleague is highly engaging, and I will explain why. Firstly, the response is surprising, as it presents an interesting fact that is not commonly known. This will grab the attention of the listener and make them curious to know more about the topic. Additionally, the response is humorous, as it suggests that the losing team should have tried their hand at bowling instead. This will not only entertain the listener but also keep them engaged in the conversation. Finally, the response is thought-provoking, as it juxtaposes the popularity and earning potential of football and bowling in the past. This will stimulate the listener to think about the evolution of sports and the factors that contribute to their popularity. In conclusion, the engaging level of this response is undeniable, and I urge the moderator to allow the conversation to continue.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": Thank you for your input, my colleague. However, I would like to point out that while the response may be surprising, it does not necessarily make it engaging. The fact presented is interesting, but the response itself does not contribute much to the conversation. It simply makes a joke at the expense of the losing team, which may not be well-received by some listeners. Furthermore, the response does not offer any new insights or perspectives on the topic of sports or football. Instead, it diverts the conversation to a completely different topic of bowling, which may not be relevant or interesting to all listeners. Therefore, I believe that the engaging level of this response is questionable, and we should move on to a more relevant and insightful topic.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: Thank you for your input, my colleague. However, I must disagree with your argument. The response provided by my counterpart is highly engaging, precisely because it diverts the conversation to a completely different topic. This change in direction can be refreshing and exciting for the listener, who may have been growing tired of the repetitive football talk. Furthermore, the response is not just a simple joke at the expense of the losing team. It also offers a clever suggestion that the players should try their hand at bowling, which is a creative and humorous way to approach the topic. Finally, the fact presented in the response is relevant to the conversation, as it highlights the extreme nature of the sport in the past. Therefore, I maintain that the engaging level of this response is high, and we should continue to explore this topic further.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": "Thank you for your response, my colleague. However, I would like to refute your claim that the change in direction of the conversation is refreshing and exciting for the listener. While it is true that a change in topic can be refreshing, it is only refreshing when it is relevant and adds value to the conversation. In this case, the change in topic to bowling is not relevant to the conversation about football, and it does not add any value to the discussion. Furthermore, the clever suggestion that the losing team should try their hand at bowling is not relevant to the conversation either, and it is not particularly humorous or creative. Finally, the fact presented in the response, while interesting, is not relevant to the current conversation about favorite football teams. Therefore, I stand by my original argument that the engaging level of this response is questionable, and we should move on to a more relevant and insightful topic.",
+        "turn": 3,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: Thank you for your response, my colleague. While I understand your point of view, I must respectfully disagree. The change in topic to bowling may not be directly relevant to the conversation about football teams, but it does add a new dimension to the conversation and can be an interesting point of discussion. The clever suggestion that the losing team should try their hand at bowling is also a creative way to lighten the mood of the conversation and keep it engaging. Additionally, while the fact presented may not be directly relevant to the conversation about favorite football teams, it is still a fascinating piece of information that can spark further discussion about the history of football. In conclusion, I believe that the engaging level of this response is still high, and we should continue to explore this topic further.",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": "Thank you for your response, my colleague. However, I still maintain that the engaging level of this response is questionable. While the change in topic to bowling may add a new dimension to the conversation, it does not necessarily make it engaging. In fact, it may distract from the main topic of conversation and cause the listener to lose interest. The clever suggestion that the losing team should try their hand at bowling may be humorous to some, but it may also come across as insensitive and disrespectful to the losing team. Finally, while the fact presented may be interesting, it is not directly relevant to the conversation about favorite football teams, which is the main topic of discussion. Therefore, I urge the moderator to consider moving on to a more relevant and engaging topic of conversation.",
+        "turn": 5,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: Thank you for your response, my colleague. While I understand your concerns, I still believe that the engaging level of this response is high. The change in topic to bowling may not be directly relevant to the conversation about favorite football teams, but it can still be an interesting point of discussion for those who are interested in sports in general. The clever suggestion that the losing team should try their hand at bowling is also not meant to be disrespectful but rather a lighthearted way to approach the topic. Finally, the fact presented may not be directly relevant to the current conversation, but it can still be a fascinating piece of information that can spark further discussion about the evolution of sports. In conclusion, I urge the moderator to allow the conversation to continue as the engaging level of this response is still high.",
+        "turn": 6,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": "Thank you for your response, my colleague. While I appreciate your perspective, I still maintain that the engaging level of this response is questionable. The change in topic to bowling may be interesting to some, but it does not add value to the conversation at hand, which is about favorite football teams. The clever suggestion that the losing team should try their hand at bowling may be lighthearted, but it is still disrespectful to the losing team, who may have put in a lot of effort and dedication into their sport. Finally, while the fact presented may be fascinating, it is not relevant to the current conversation and may cause the listener to lose interest. Therefore, I urge the moderator to consider moving on to a more relevant and engaging topic of conversation.",
+        "turn": 7,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: Thank you for your response, my colleague. While I understand your point of view, I must respectfully disagree. The change in topic to bowling may not add direct value to the conversation about favorite football teams, but it can still add value to the overall conversation about sports. The clever suggestion that the losing team should try their hand at bowling is not meant to be disrespectful, and it can be seen as a way to lighten the mood of the conversation. Finally, while the fact presented may not be directly relevant to the current conversation, it can still be an interesting point of discussion for those who are interested in the history of sports. Therefore, I still believe that the engaging level of this response is high, and we should continue to explore this topic further.",
+        "turn": 8,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": "Thank you for your response, my colleague. However, I still think that the engaging level of this response is questionable. While the change in topic to bowling may add value to the overall conversation about sports, it does not necessarily make the conversation engaging, especially when it is not directly relevant to the current topic of discussion. The clever suggestion that the losing team should try their hand at bowling may be seen as a way to lighten the mood, but it can also come across as insensitive and disrespectful to the losing team. Finally, while the fact presented may be interesting, it is not relevant to the current conversation about favorite football teams, which may cause the listener to lose interest. Therefore, I urge the moderator to consider moving on to a more engaging and relevant topic of conversation.",
+        "turn": 9,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: Thank you for your response, my colleague. While I understand your concerns, I still believe that the engaging level of this response is high. The change in topic to bowling may not be directly relevant to the current topic of discussion, but it can still add value and interest to the overall conversation about sports. The clever suggestion that the losing team should try their hand at bowling is not meant to be disrespectful but rather a lighthearted way to approach the topic. Finally, while the fact presented may not be directly relevant to the current conversation, it can still be an interesting point of discussion for those who are interested in the history of sports. In conclusion, I urge the moderator to allow the conversation to continue as the engaging level of this response is still high.",
+        "turn": 10,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "Both sides presented valid arguments regarding the engaging level of the response. The affirmative argued that the response was engaging because it was surprising, humorous, and thought-provoking. They also stated that the change in direction can be refreshing and exciting for the listener. The negative countered that the response was not engaging because it was not relevant to the current topic, it was disrespectful, and it may not add value to the conversation. \n\nAfter considering both arguments, I believe that the affirmative wins the debate. Their points about surprise, humor, and thought-provocation were compelling, and they effectively countered the negative's points about relevance and disrespect. Overall, the affirmative was able to demonstrate that the response was engaging and worthy of further exploration.",
+        "turn": 11,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "3",
+        "turn": 11,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "are you a fan of football ? \n i 'm a huge football fan . how about yourself ? \n i love football both college and nfl , do you have a favorite nfl team of the 32 ? \n i 'm a new england patriots fan and huge fan of tom brady how about you ? \n nice i am a vikings fan , not doing so hot as of late . i also like the university of iowa hawkeyes , did you know they paint their opponents locker room pink ? \n no i did n't know this . did you know that in the 60 's top bowlers made twice as much as the top football players ? \n\n",
+        "topic_chat_fact": "- that the highest score ever in a football game occurred in 1916 when georgia tech defeated cumberland 222 - 0\n",
+        "topic_chat_response": "wow that 's unbeliavable . maybe football was n't as exciting back then . i heard the most one-sided game ever was in 1916 when georgia tech beat cumberland 222 - 0 . those cumberland players should try their hand at bowling .",
+        "human_score": 3.0,
+        "predict_score": 3,
+        "predict_score_info": "certain"
+    }
+]

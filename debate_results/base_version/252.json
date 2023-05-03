@@ -1,0 +1,42 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response \"yeah i think i read that recently. In 39 out of 50 states, the highest paid state employee is either a college football or basketball coach,\" is an excellent example of an engaging response in a conversation. Firstly, it demonstrates a clear understanding and knowledge of the topic being discussed, which immediately engages the listener. Secondly, the use of statistics, particularly the mention of 39 out of 50 states, adds a layer of interest and intrigue to the response. This not only captures the listener's attention but also encourages them to delve deeper into the topic to learn more. Lastly, the response is concise and to the point, making it easy to follow and comprehend. In conclusion, the engaging level of the response is undeniable, and I urge you to consider this when evaluating the potential response in a conversation.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While it is true that the response presents a statistic that may seem interesting to some, it fails to engage the listener beyond a surface level. Firstly, the phrase \"yeah I think I read that recently\" does not add any substantial value to the conversation and can be seen as a filler phrase. Secondly, simply presenting a statistic without any context or explanation does not encourage further discussion or deeper engagement. The listener may be left with questions such as why are college football or basketball coaches the highest paid state employees in these states, or what impact does this have on other state employees? Lastly, the response does not offer any personal opinion or perspective, which can limit the potential for a dynamic and engaging conversation. In summary, while the response may provide a small amount of interest, it ultimately lacks depth and fails to truly engage the listener.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "The affirmative argued that the response is engaging because it demonstrates knowledge, uses statistics, and is concise. On the other hand, the negative argued that the response is not engaging beyond a surface level because it lacks context, personal perspective, and substance. \n\nIn my opinion, the negative side wins the debate as they provided a more detailed and compelling argument against the engaging level of the response. They pointed out the flaws of the response and offered suggestions on how it could be improved. The affirmative side did not offer a strong rebuttal to their arguments.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "2",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "hello how are you doing ? reggie miller , nba hall of famer , could n't escape his older sister cheryl 's shadow while in high school . on january 26 , 1982 , he scored a career high 40 points . he tried bragging about it on the car ride home , only to find out cheryl scored 105 points and broken 8 national records ! \n yes , and do you like basketball ? \n i do nt keep track of all basketball but i do watch the warriors play . how about you ? \n yes , me also . but it 's very interesting game in the world . \n it is , did you know nba player allen iverson signed a lifetime endorsement contract with reebok in 2001 that would pay him $ 800,000 a year until he reaches age 55 to where he would then receive a final lump sum payment of $ 32,000,000 . \n national basketball association ( nba ) , professional basketball league formed in the united states in 1949 by the merger of two rival organizations , the national basketball league ( founded 1937 ) and the basketball association of america ( founded 1946 ) . \n oh i guess that s interesting . \n by the early 1980s the nba was plagued by money - losing franchises , low attendance , declining television ratings , and limited national appeal . the league soon rebounded under the leadership of david stern , nba commissioner from 1984 , who helped transform it into an international entertainment company . \n physicists proved that shooting \" granny style \" is the absolute best technique to consistently score points on the line , but nba players refuse to do it because it looks stupid . maybe they should start shooting granny style again ! lol \n yes , that 's nice . \n kareem abdul - jabbar 's dominant use of the dunk got the shot banned from college basketball for over a decade . \n kareem abdul - jabbar is an american retired professional basketball player who played 20 seasons in the national basketball association for the milwaukee bucks and the los angeles lakers . \n james naismith , the inventor of basketball , is the only losing coach in the university of kansas 's history \n james naismith wrote and developed the game 's original thirteen rules and , through the ymca network , quickly spread the news throughout the country . \n\n",
+        "topic_chat_fact": "in 39 out of 50 states , the highest paid state employee is either a college football or basketball coach .\n",
+        "topic_chat_response": "yeah i think i read that recently . in 39 out of 50 states , the highest paid state employee is either a college football or basketball coach . ",
+        "human_score": 2.3333333333,
+        "predict_score": 2,
+        "predict_score_info": "certain"
+    }
+]

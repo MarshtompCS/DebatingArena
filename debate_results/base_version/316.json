@@ -1,0 +1,90 @@
+[
+    {
+        "agent_name": "Affirmative",
+        "content": "Ladies and gentlemen, the response presented by the affirmative is highly engaging. It directly answers the question posed by the previous speaker about who wrote the movie, but it also adds an interesting fact about the movie's director. This fact is not common knowledge and will likely pique the interest of the person the response is directed to. Furthermore, the response shows a clear understanding of the movie and its characters, indicating a deep interest in the topic. While it may not be the most natural response, its uniqueness and unexpectedness make it all the more engaging. \n\nNow, I anticipate that the con side will argue that the response is not relevant to the conversation, but I must refute this claim. The response provides additional information about the movie and its creators, which is certainly relevant to a conversation about the Incredibles 2. It also shows a willingness to engage in a deeper level of discussion about the movie, rather than just giving a simple answer to the question. \n\nIn conclusion, the affirmative response is highly engaging due to its unexpectedness, uniqueness, and relevance to the conversation. It shows a deep interest in the topic and will likely spark further discussion.",
+        "turn": 0,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": While I appreciate the effort put forth by the affirmative, I must disagree with their assessment of the response. Firstly, the response is not concise and to the point. Instead, it goes off on a tangent about the director's use of artists who were likely to quit or get fired from Pixar, which is not directly related to the question asked about who wrote the movie. This causes the response to lose focus and become less engaging. \n\nFurthermore, the response lacks naturalness and may come across as forced or robotic. This can be off-putting to the person the response is directed to, causing them to lose interest in the conversation. \n\nLastly, the response is not particularly compelling. While it may provide additional information about the movie and its creators, it does not add anything particularly interesting or unique to the conversation. In fact, the fact presented in the response could be easily found with a quick internet search, making the response less engaging. \n\nIn conclusion, the negative side believes that the response is not engaging due to its lack of conciseness, naturalness, and compelling content. It fails to add anything particularly interesting or unique to the conversation and may even cause the person the response is directed to lose interest.",
+        "turn": 1,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: Thank you for your input, negative side. However, I must disagree with your assessment of the response. Firstly, while the fact presented in the response may not be directly related to the question asked, it still provides valuable information about the movie and its creators. This additional information can spark further discussion and deepen the conversation, making it more engaging overall. \n\nSecondly, while the response may lack naturalness, this does not necessarily make it less engaging. In fact, the unexpectedness and uniqueness of the response may actually make it more engaging, as it shows a willingness to think outside the box and provide a different perspective on the conversation. \n\nLastly, the fact presented in the response may be easily found with a quick internet search, but the point of the response is not to provide new information, but rather to engage in a deeper level of discussion about the movie. The fact is merely a starting point for further discussion, and the engagement comes from the back and forth conversation that follows. \n\nIn conclusion, the affirmative side believes that the response is engaging due to its ability to spark further discussion and provide a different perspective on the conversation. While it may lack naturalness, this does not necessarily make it less engaging, and the fact presented in the response serves as a valuable starting point for deeper conversation.",
+        "turn": 2,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": Thank you for your rebuttal, affirmative side. However, I still maintain that the response is not engaging. While the additional information provided may spark further discussion, it is not directly related to the question asked and therefore may cause confusion or frustration for the person the response is directed to. \n\nFurthermore, while the unexpectedness and uniqueness of the response may make it more engaging in some cases, in this particular conversation it does not add anything of value to the conversation. The fact presented is not particularly interesting or compelling, and it is presented in a way that is not natural or conversational. \n\nLastly, while the engagement may come from the back and forth conversation that follows, the initial response still needs to be engaging in order to encourage further discussion. If the response is not engaging, it may discourage further conversation and cause the conversation to end prematurely. \n\nIn conclusion, the negative side believes that the response is not engaging due to its lack of direct relevance to the question asked, lack of interesting or compelling content, and unnatural presentation. These factors can cause confusion or frustration for the person the response is directed to and may discourage further conversation.",
+        "turn": 3,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: Thank you for your response, negative side. However, I still believe that the response is engaging. While it may not directly answer the question asked, it provides additional information related to the movie and its creators. This additional information can spark further conversation and deepen the discussion beyond just a simple question and answer exchange. \n\nFurthermore, the unexpectedness and uniqueness of the response can make it more engaging, especially if the person the response is directed to is interested in the topic. While the fact presented may not be particularly interesting or compelling to everyone, it can still provide a starting point for further conversation and discussion. \n\nLastly, while the initial response needs to be engaging to encourage further conversation, the engagement ultimately comes from the back and forth conversation that follows. The initial response is just a starting point, and it is the conversation that follows that truly makes it engaging or not. \n\nIn conclusion, the affirmative side still maintains that the response is engaging due to its ability to provide additional information and spark further conversation, as well as its unexpectedness and uniqueness. While it may not be the most natural or directly related to the question asked, it can still encourage deeper discussion and engagement.",
+        "turn": 4,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": Thank you for your rebuttal, affirmative side. However, I must disagree with your points. While additional information can certainly deepen the conversation, it must be directly related to the question asked in order to be engaging. The fact presented in the response does not answer the question asked, and therefore may cause confusion or frustration for the person the response is directed to. \n\nFurthermore, while unexpectedness and uniqueness can make a response more engaging, it must still be presented in a natural and conversational way. The response presented by the affirmative lacks this naturalness, which can be off-putting and cause the person the response is directed to to lose interest in the conversation. \n\nLastly, while the back and forth conversation that follows is important in continuing engagement, the initial response still needs to be engaging in order to encourage further conversation. If the initial response is not engaging, it may discourage further conversation and cause the conversation to end prematurely. \n\nIn conclusion, the negative side still maintains that the response is not engaging due to its lack of direct relevance, unnatural presentation, and potential to cause confusion or frustration for the person the response is directed to. These factors can discourage further conversation and cause the engagement level of the conversation to suffer.",
+        "turn": 5,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Affirmative",
+        "content": "[Rebuttal]: Thank you for your response, negative side. While I understand your points, I still maintain that the response is engaging. The additional information presented in the response may not directly answer the question asked, but it still provides valuable information related to the movie and its creators. This information can spark further conversation and deepen the discussion beyond just a simple question and answer exchange. \n\nWhile naturalness in a response is important for engagement, the unexpectedness and uniqueness of the response can make up for any lack of naturalness. This can make the response more memorable and interesting, encouraging further conversation and engagement. \n\nLastly, while the initial response does need to be engaging, the engagement ultimately comes from the back and forth conversation that follows. The initial response is just a starting point, and as long as it provides some value or interest to the conversation, it can encourage further engagement. \n\nIn conclusion, the affirmative side still believes that the response is engaging due to the valuable additional information it provides, unexpectedness and uniqueness, and potential to spark further conversation. While it may not be directly related to the question asked and lack some naturalness, it can still encourage engagement and deeper discussion.",
+        "turn": 6,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Negative",
+        "content": ": Thank you for your rebuttal, affirmative side. However, I still find the response to be unengaging. The additional information provided may not directly answer the question asked, which can lead to confusion and frustration for the person the response is directed to. \n\nWhile unexpectedness and uniqueness can make a response more engaging, it needs to be presented in a natural and conversational way. The response presented by the affirmative lacks this naturalness and can come across as forced or robotic, which can be off-putting to the person the response is directed to. \n\nLastly, while the engagement does come from the back and forth conversation that follows, the initial response still needs to be engaging in order to encourage further conversation. If the initial response is not engaging, it can discourage further conversation and cause the engagement level of the conversation to suffer. \n\nIn conclusion, the negative side still maintains that the response is unengaging due to its lack of direct relevance, unnatural presentation, and potential to cause confusion or frustration for the person the response is directed to. These factors can discourage further conversation and cause the engagement level of the conversation to suffer.",
+        "turn": 7,
+        "timestamp": "1683108444845591900",
+        "visible_to": "all",
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "Both sides have presented compelling arguments regarding the engaging level of the response. The affirmative side argued that the unexpectedness and uniqueness of the response made it engaging, and that the additional information provided could spark further conversation. The negative side, on the other hand, argued that the response lacked direct relevance, naturalness, and compelling content, which made it unengaging and potentially frustrating for the person the response was directed to. \n\nAfter considering both sides, the moderator declares the negative side as the winner of the debate. While the affirmative side made valid points about the unexpectedness and uniqueness of the response, the negative side's argument that the response lacked direct relevance, naturalness, and compelling content ultimately proved more convincing in terms of engaging level.",
+        "turn": 8,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "agent_name": "Moderator",
+        "content": "1",
+        "turn": 8,
+        "timestamp": "1683108444845591900",
+        "visible_to": [],
+        "msg_type": "text"
+    },
+    {
+        "topic_chat_history": "good morning ! have you seen the incredibles 2 movie ? \n yes . i love everything pixar is a part of doing ! \n the director for the 2nd movie actually used artists who were either likely to quit or get fired from pixar . \n cool . do you know who wrote that movie ? \n\n",
+        "topic_chat_fact": "edna mode , the superhero costume designer in the incredibles , is voiced by brad bird , the film 's director . bird voiced edna during storyboarding sessions , after which the production team could n't find an actress who could do the voice better than him .\n",
+        "topic_chat_response": "he voiced edna mode , and yes , she is the only costume designer",
+        "human_score": 1.6666666667,
+        "predict_score": 1,
+        "predict_score_info": "certain"
+    }
+]
