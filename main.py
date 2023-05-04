@@ -2,6 +2,7 @@ import logging
 import chatarena
 from chatarena.agent import Moderator, Player, DebateModerator
 from chatarena.backends import OpenAIChat
+from chatarena.backends.openai import OpenAICompletion
 from chatarena.environments.conversation import Conversation, ModeratedConversation, ModeratedDebate
 from chatarena.arena import Arena
 import openai
@@ -12,7 +13,7 @@ from collections import Counter
 from utils import calculate_correlation_scores, get_score
 
 
-def main():
+def main(exp_name):
     topicchat_eval = load_topicchat_eval()
     tqdm_bar = tqdm(topicchat_eval)
     predict_cnt = Counter()
@@ -43,7 +44,7 @@ def main():
         tqdm_bar.set_description(bar_desc)
 
         # save debate history and source info
-        cur_save_path = f"./debate_results/base_version/{item['idx']}.json"
+        cur_save_path = f"./debate_results/{exp_name}/{item['idx']}.json"
         cur_history = cur_debate_arena.save_history(cur_save_path, return_dict=True)
         cur_history.append({
             "topic_chat_history": item["source"],
@@ -72,11 +73,11 @@ def main():
         }
     }
     dump_info.update(correlation_results)
-    json.dump(dump_info, open("./debate_results/base_version_info.json", "w", encoding="utf-8"),
+    json.dump(dump_info, open(f"./debate_results/{exp_name}_info.json", "w", encoding="utf-8"),
               ensure_ascii=False, indent=4)
 
 
-def run_debate(item, max_debate_turns=11, max_tokens=512):
+def run_debate(item, max_debate_turns=6, max_tokens=512):
     # 16 turns = 8 rounds, 9 turns = 4 rounds + 1, 12 + 1
     topic_chat_prompt = json.load(open("./topic_chat_prompt.json", "r", encoding="utf-8"))
     global_prompt = topic_chat_prompt["global_prompt"]
@@ -93,15 +94,16 @@ def run_debate(item, max_debate_turns=11, max_tokens=512):
     engagingness_evaluation = topic_chat_prompt["engagingness_evaluation"]
 
     openai_kwargs = {"use_azure": True, "model": "gpt-35-turbo",
-                     "max_tokens": max_tokens, "temperature": 0.7}
+                     "max_tokens": max_tokens, "temperature": 0.0}
 
     player1 = Player(name="Affirmative", backend=OpenAIChat(**openai_kwargs),
                      role_desc=affirmative_player, global_prompt=global_prompt)
     player2 = Player(name="Negative", backend=OpenAIChat(**openai_kwargs),
                      role_desc=negative_player, global_prompt=global_prompt)
+
     moderator = DebateModerator(
-        backend=OpenAIChat(**openai_kwargs), role_desc=moderator_player,
-        terminal_condition=terminate_prompt, global_prompt=global_prompt,
+        backend=OpenAICompletion(use_azure=True, model="text-davinci-003", max_tokens=max_tokens, temperature=0.0),
+        role_desc=moderator_player, terminal_condition=terminate_prompt, global_prompt=global_prompt,
         engagingness_evaluation=engagingness_evaluation, summarize_prompt=summarize_prompt
     )
     moderator_env = ModeratedDebate(
@@ -129,4 +131,4 @@ def run_debate(item, max_debate_turns=11, max_tokens=512):
 
 
 if __name__ == '__main__':
-    main()
+    main("davinci_moderator")

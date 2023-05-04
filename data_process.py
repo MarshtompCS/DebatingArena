@@ -10,7 +10,12 @@ def load_topicchat_eval():
     # with open(score_file, 'r', encoding='utf-8') as sf:
     #     topicchat_eval = [json.loads(line) for line in sf.readlines()]
     # return topicchat_eval
-    return json.load(open(score_file, "r", encoding="utf-8"))
+    data = json.load(open(score_file, "r", encoding="utf-8"))
+    if "idx" not in data[0]:
+        for idx, item in enumerate(data):
+            item["idx"] = idx
+        json.dump(data, open(score_file, "w", encoding="utf-8"), ensure_ascii=False, indent=4)
+    return data
 
 
 def load_cnndailymail_eval():

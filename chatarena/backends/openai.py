@@ -104,6 +104,65 @@ class OpenAIChat(IntelligenceBackend):
         response = self._get_response([system_prompt] + conversations + request_prompt, *args, **kwargs)
 
         # Remove the agent name if the response starts with it
-        response = re.sub(rf"^\s*\[{agent_name}]", "", response)
+        # response = re.sub(rf"^\s*\[{agent_name}]", "", response)
+        response = response.strip()
+        response = re.sub(rf"^\[.*]:", "", response)
+        response = response.strip()
+        return response
 
+
+class OpenAICompletion(IntelligenceBackend):
+    """
+    Interface to the ChatGPT style model with system, user, assistant roles separation
+    """
+    stateful = False
+    type_name = "openai-completion"
+
+    def __init__(self, temperature: float = DEFAULT_TEMPERATURE, max_tokens: int = DEFAULT_MAX_TOKENS,
+                 model: str = "text-davinci-003", use_azure=False, **kwargs):
+        assert is_openai_available, "openai package is not installed or the API key is not set"
+        super().__init__(temperature=temperature, max_tokens=max_tokens, model=model, **kwargs)
+
+        self.temperature = temperature
+        self.max_tokens = max_tokens
+        self.model = model
+        self.use_azure = use_azure
+
+    @retry(stop=stop_after_attempt(6), wait=wait_random_exponential(min=1, max=60))
+    def _get_response(self, prompt):
+        if self.use_azure:
+            completion = openai.Completion.create(
+                engine=self.model,
+                prompt=prompt,
+                temperature=self.temperature,
+                max_tokens=self.max_tokens,
+                stop=STOP
+            )
+        else:
+            completion = openai.ChatCompletion.create(
+                model=self.model,
+                prompt=prompt,
+                temperature=self.temperature,
+                max_tokens=self.max_tokens,
+                stop=STOP
+            )
+        response = completion["choices"][0]["text"]
+        response = response.strip()
+        return response
+
+    def query(self, agent_name: str, role_desc: str, history_messages: List[Message], global_prompt: str = None,
+              request_msg: Message = None, completion_prefix: str = None, *args, **kwargs) -> str:
+        if global_prompt:
+            system_prompt_str = f"{global_prompt.strip()}\n{role_desc}\n"
+        else:
+            system_prompt_str = f"{role_desc}\n"
+        prompt = system_prompt_str + "\nThe following are history messages:\n"
+        for i, message in enumerate(history_messages):
+            prompt += f"[{message.agent_name}]: {message.content}\n"
+        prompt += "\n"
+        if request_msg:
+            prompt += request_msg.content + "\n"
+        if completion_prefix:
+            prompt += completion_prefix
+        response = self._get_response(prompt, *args, **kwargs)
         return response

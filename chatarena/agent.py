@@ -6,6 +6,7 @@ import uuid
 from abc import abstractmethod
 
 from .backends import IntelligenceBackend, load_backend
+from .backends.openai import OpenAICompletion
 from .message import Message, SYSTEM_NAME
 from .config import AgentConfig, Configurable, BackendConfig
 
@@ -163,6 +164,9 @@ class DebateModerator(Player):
     def evaluate(self, history: List[Message], *args, **kwargs) -> str:
         try:
             request_msg = Message(agent_name=self.name, content=self.engagingness_evaluation, turn=-1)
+            if type(self.backend) == OpenAICompletion:
+                completion_prefix = "Evaluation Form(scores ONLY):\n-Engagingness:"
+                kwargs["completion_prefix"] = completion_prefix
             response = self.backend.query(agent_name=self.name, role_desc=self.role_desc, history_messages=history,
                                           global_prompt=self.global_prompt, request_msg=request_msg, *args, **kwargs)
         except RetryError as e:
