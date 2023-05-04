@@ -2,6 +2,7 @@ from scipy import stats
 import re
 import logging
 import json
+import os
 
 
 def is_valid_score(x):
@@ -63,5 +64,28 @@ def check_round_hits_num():
     print(hitn)
 
 
+def system_rank():
+    # data_dir = "./debate_results/davinci_moderator"
+    # for i in range(360):
+    #     cur_dir = os.path.join(data_dir, f"{i}.json")
+    #     cur_data = load_json(cur_dir)
+
+    data = load_json("./debate_results/davinci_moderator_info.json")
+
+    scores_pred = [[] for _ in range(6)]
+    scores_targ = [[] for _ in range(6)]
+
+    for idx, (i, j) in enumerate(zip(data["predict_scores"], data["target_scores"])):
+        scores_pred[idx % 6].append(i)
+        scores_targ[idx % 6].append(j)
+
+    scores_pred = [sum(i) / len(i) for i in scores_pred]
+    scores_targ = [sum(i) / len(i) for i in scores_targ]
+
+    print(scores_pred)
+    print(scores_targ)
+
+
 if __name__ == '__main__':
-    check_round_hits_num()
+    # check_round_hits_num()
+    system_rank()

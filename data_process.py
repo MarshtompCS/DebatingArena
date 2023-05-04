@@ -29,7 +29,7 @@ def load_cnndailymail_eval():
         if dataset_name == "dm":
             dataset_name = "dailymail"
         src_path = os.path.join(DATA_PATH, f"{dataset_name}/stories/{cur_src_id}.story")
-        src = open(src_path, 'r', encoding='utf-8').read().split()
+        src = open(src_path, 'r', encoding='utf-8').read().strip()
         item["story"] = src
 
     return cnndailymail_eval
@@ -37,4 +37,5 @@ def load_cnndailymail_eval():
 
 if __name__ == '__main__':
     # load_first_item()
+    load_cnndailymail_eval()
     pass

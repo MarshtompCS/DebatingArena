@@ -130,5 +130,9 @@ def run_debate(item, max_debate_turns=6, max_tokens=512):
     return debate_arena
 
 
+def run_comparison_debate():
+    # text summarization
+    pass
+
 if __name__ == '__main__':
     main("davinci_moderator")
