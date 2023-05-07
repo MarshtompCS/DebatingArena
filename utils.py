@@ -105,6 +105,137 @@ def cnn_dailymail_check():
     print(err_indexes)
 
 
+def get_cnn_dailymail_human_scores(item):
+    expert_annotations = item["expert_annotations"]
+    turker_annotations = item["turker_annotations"]
+    form_keys = ["Relevance", "Consistency", "Fluency", "Coherence"]
+
+    expert_eval = {k: sum([expert[k.lower()] for expert in expert_annotations]) /
+                      len(expert_annotations) for k in form_keys}
+
+    turker_eval = {k: sum([turker[k.lower()] for turker in turker_annotations]) /
+                      len(turker_annotations) for k in form_keys}
+
+    all_human_eval = {k: sum([human[k.lower()] for human in expert_annotations + turker_annotations]) /
+                         len(expert_annotations + turker_annotations) for k in form_keys}
+
+    return {"expert_eval": expert_eval,
+            "turker_eval": turker_eval,
+            "all_human_eval": all_human_eval}
+
+
+def parse_cnn_dailymail_scores(debates_dir, debates_num=1700):
+    all_pred = []
+    all_human = []
+    form_keys = ["Relevance", "Consistency", "Fluency", "Coherence"]
+    for idx in range(debates_num):
+        cur_path = os.path.join(debates_dir, f"{idx}.json")
+        cur_debate = load_json(cur_path)
+
+        cur_human = get_cnn_dailymail_human_scores(cur_debate[-1])
+        all_human.append(cur_human)
+
+        if is_error_debate(cur_debate):
+            all_pred.append(None)
+            continue
+
+        cur_eval_form = cur_debate[-2]
+        cur_lines = cur_eval_form.contend.split("\n")
+        cur_pred = {k: None for k in form_keys}
+
+        try:
+            cur_pred["Relevance"] = int(cur_lines[0])
+        except ValueError as err:
+            logging.error(f"error: {err}\nparse {cur_lines[0]}")
+
+        for line in cur_lines[1:4]:
+            try:
+                contain_keys = [k for k in form_keys if k in line]
+                assert len(contain_keys) == 1
+                assert cur_pred[contain_keys[0]] is None
+                score_pattern = re.compile(r'\d+\.?\d*')
+                candidates = score_pattern.findall(line)
+                assert len(candidates) == 1
+            except AssertionError as err:
+                logging.error(f"error: {err}\nparse line: {line}")
+                break
+            cur_pred[contain_keys[0]] = int(candidates[0])
+
+        all_pred.append(cur_pred)
+
+    return all_pred, all_human
+
+
+def filtered_two_list(data1, data2):
+    all_data = [(i, j) for i, j in zip(data1, data2)
+                if i is not None and j is not None]
+    data1 = [i[0] for i in all_data]
+    data2 = [i[1] for i in all_data]
+    return data1, data2
+
+
+def cnn_dailymail_correlation(all_human, all_pred):
+    all_human, all_pred = filtered_two_list(all_human, all_pred)
+
+    form_keys = ["Relevance", "Consistency", "Fluency", "Coherence"]
+    for k in form_keys:
+        print(f"{k} correlation")
+
+        print(f"{k} expert correlation")
+        expert_k = [item["expert"][k] for item in all_human]
+        pred_k = [item[k] for item in all_pred]
+        expert_k, pred_k = filtered_two_list(expert_k, pred_k)
+        expert_res = calculate_correlation_scores(expert_k, pred_k)
+        print(expert_res)
+
+        print(f"{k} turker correlation")
+        turker_k = [item["turker"][k] for item in all_human]
+        pred_k = [item[k] for item in all_pred]
+        turker_k, pred_k = filtered_two_list(turker_k, pred_k)
+        turker_res = calculate_correlation_scores(turker_k, pred_k)
+        print(turker_res)
+
+        print(f"{k} all_human correlation")
+        human_k = [item["all_human"][k] for item in all_human]
+        pred_k = [item[k] for item in all_pred]
+        human_k, pred_k = filtered_two_list(human_k, pred_k)
+        human_res = calculate_correlation_scores(human_k, pred_k)
+        print(human_res)
+
+
+def multi_debate_cnn_dailymail():
+    dirs = []
+    all_debate_pred = []
+    all_human = []
+    for cur_dir in dirs:
+        cur_debate_pred, all_human = parse_cnn_dailymail_scores(cur_dir, debates_num=1700)
+        print(f"\n{cur_dir} correlation")
+        cnn_dailymail_correlation(all_human, cur_debate_pred)
+        all_debate_pred.append(cur_debate_pred)
+
+    ensemble_pred = []
+    form_keys = ["Relevance", "Consistency", "Fluency", "Coherence"]
+    for idx in range(1700):
+        cur_preds = [debates[idx] for debates in all_debate_pred]
+        if all(x is None for x in cur_preds):
+            ensemble_pred.append(None)
+            continue
+
+        cur_ensemble_pred = {k: None for k in form_keys}
+        for k in form_keys:
+            cur_pred_k = [cur_pred[k] for cur_pred in cur_preds if cur_pred is not None]
+            if len(cur_pred_k) > 0:
+                cur_pred_k = sum(cur_pred_k) / len(cur_pred_k)
+            else:
+                cur_pred_k = None
+            cur_ensemble_pred[k] = cur_pred_k
+
+        ensemble_pred.append(cur_ensemble_pred)
+
+    print("\nensemble correlation")
+    cnn_dailymail_correlation(all_human, ensemble_pred)
+
+
 if __name__ == '__main__':
     # check_round_hits_num()
     # system_rank()
