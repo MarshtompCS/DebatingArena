@@ -23,7 +23,7 @@ def load_cnndailymail_eval():
     with open(score_file, "r", encoding="utf-8") as sf:
         cnndailymail_eval = [json.loads(line) for line in sf.readlines()]
 
-    for item in cnndailymail_eval:
+    for idx, item in enumerate(cnndailymail_eval):
         dataset_name, dataset_split, cur_src_id = item["id"].split("-")
         assert dataset_split == "test"
         if dataset_name == "dm":
@@ -31,6 +31,8 @@ def load_cnndailymail_eval():
         src_path = os.path.join(DATA_PATH, f"{dataset_name}/stories/{cur_src_id}.story")
         src = open(src_path, 'r', encoding='utf-8').read().strip()
         item["story"] = src
+        if "idx" not in item:
+            item["idx"] = idx
 
     return cnndailymail_eval
 

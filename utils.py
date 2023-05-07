@@ -86,6 +86,26 @@ def system_rank():
     print(scores_targ)
 
 
+def is_error_debate(debate_history):
+    for msg in debate_history[:-1]:
+        if msg["content"].startswith("<<<<<<END_OF_CONVERSATION>>>>>>"):
+            return True
+    return False
+
+
+def cnn_dailymail_check():
+    dir_path = "./debate_results/cnn_dailymail_base_version"
+    err_indexes = []
+    for idx in range(92):
+        cur_path = os.path.join(dir_path, f"{idx}.json")
+        cur_data = load_json(cur_path)
+        if is_error_debate(cur_data):
+            err_indexes.append(idx)
+            break
+    print(err_indexes)
+
+
 if __name__ == '__main__':
     # check_round_hits_num()
-    system_rank()
+    # system_rank()
+    cnn_dailymail_check()

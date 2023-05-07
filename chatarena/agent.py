@@ -129,15 +129,19 @@ class DebateModerator(Player):
 
     def __init__(self, role_desc: str, backend: Union[BackendConfig, IntelligenceBackend],
                  terminal_condition: str, global_prompt: str = None,
-                 summarize_prompt: str = None, engagingness_evaluation: str = None, **kwargs):
+                 summarize_prompt: str = None, evaluation_prompt: str = None,
+                 completion_prefix: str = None, **kwargs):
         name = "Moderator"
         super().__init__(name=name, role_desc=role_desc, backend=backend, global_prompt=global_prompt, **kwargs)
 
         self.terminal_condition = terminal_condition
-        assert summarize_prompt is not None, "summarize prompt should be set"
-        assert engagingness_evaluation is not None, "engagingness evaluation prompt should be set"
+        assert summarize_prompt is not None
+        assert evaluation_prompt is not None
+        if type(self.backend) == OpenAICompletion:
+            assert completion_prefix is not None
         self.summarize_prompt = summarize_prompt
-        self.engagingness_evaluation = engagingness_evaluation
+        self.evaluation_prompt = evaluation_prompt
+        self.completion_prefix = completion_prefix
 
     def to_config(self) -> AgentConfig:
         return AgentConfig(
@@ -163,10 +167,9 @@ class DebateModerator(Player):
 
     def evaluate(self, history: List[Message], *args, **kwargs) -> str:
         try:
-            request_msg = Message(agent_name=self.name, content=self.engagingness_evaluation, turn=-1)
+            request_msg = Message(agent_name=self.name, content=self.evaluation_prompt, turn=-1)
             if type(self.backend) == OpenAICompletion:
-                completion_prefix = "Evaluation Form(scores ONLY):\n-Engagingness:"
-                kwargs["completion_prefix"] = completion_prefix
+                kwargs["completion_prefix"] = self.completion_prefix
             response = self.backend.query(agent_name=self.name, role_desc=self.role_desc, history_messages=history,
                                           global_prompt=self.global_prompt, request_msg=request_msg, *args, **kwargs)
         except RetryError as e:

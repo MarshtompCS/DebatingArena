@@ -156,12 +156,12 @@ class OpenAICompletion(IntelligenceBackend):
             system_prompt_str = f"{global_prompt.strip()}\n{role_desc}\n"
         else:
             system_prompt_str = f"{role_desc}\n"
-        prompt = system_prompt_str + "\nThe following are history messages:\n"
+        prompt = system_prompt_str + "\nThe following are debating messages:\n"
         for i, message in enumerate(history_messages):
             prompt += f"[{message.agent_name}]: {message.content}\n"
         prompt += "\n"
         if request_msg:
-            prompt += request_msg.content + "\n"
+            prompt += "[System]: " + request_msg.content + "\n"
         if completion_prefix:
             prompt += completion_prefix
         response = self._get_response(prompt, *args, **kwargs)
