@@ -19,7 +19,7 @@ def topical_chat_engagingness(exp_name):
         os.mkdir(f"./debate_results/{exp_name}")
 
     topicchat_eval = load_topicchat_eval()
-    topic_chat_prompt = json.load(open("./topic_chat_prompt.json", "r", encoding="utf-8"))
+    topic_chat_prompt = json.load(open("prompts/topic_chat_prompt.json", "r", encoding="utf-8"))
     tqdm_bar = tqdm(topicchat_eval)
     predict_cnt = Counter()
     target_cnt = Counter()
@@ -95,7 +95,7 @@ def cnn_dailymail_four_aspects(exp_name, resume=False, cur_exp_time=0):
         os.mkdir(save_dir)
 
     cnn_dailymail_eval = load_cnndailymail_eval()
-    cnn_dailymail_prompt = json.load(open("./cnn_dailymail_prompt.json", "r", encoding="utf-8"))
+    cnn_dailymail_prompt = json.load(open("prompts/cnn_dailymail_prompt.json", "r", encoding="utf-8"))
     tqdm_bar = tqdm(cnn_dailymail_eval)
     # predict_cnt = Counter()
     # target_cnt = Counter()

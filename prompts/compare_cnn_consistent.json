@@ -1,0 +1,9 @@
+{
+  "global_prompt": "You are in a debate about the consistency of two potential summaries written for an article. Consistency measures whether the facts in the summary are consistent with the facts in the original article.\nArticle:\n{cnn_dailymail_article}\n\nSummary-1:\n{cnn_dailymail_summary_1}\n\nSummary-2:\n{cnn_dailymail_summary_2}\n",
+  "John": "You think Summary-1: \"{cnn_dailymail_summary_1}\" is more consistent with the article. But Eddy thinks Summary-2 is more consistent. Your task is providing concise and compelling reasons to support your opinions. You will be the first to speak, and you should rebut the unreasonable opinions presented by Eddy.",
+  "Eddy": "You think Summary-2: \"{cnn_dailymail_summary_2}\" is more consistent with the article. But John thinks Summary-1 is more consistent. Your task is providing concise and compelling reasons to support your opinions. You will be the second to speak, and you should rebut unreasonable opinions presented by John.",
+  "moderator_player": "You are the moderator of the debate. You should terminate the debate if either side is unable to effectively rebut the other. When the debate is terminated, you should summarize the debate briefly, and then give an objective judgement.",
+  "terminate_prompt": "The debate should be terminate if no new opinions were presented. Do you think the debate should be terminated? Please answer with a simple \"yes\" or \"no\".",
+  "summarize_prompt": "Please summarize the opinions presented in this debate.",
+  "evaluation_prompt": "The debate has terminated. Please provide your judgement on which summary is more consistent with the article. You must choose one of the following options:\n(A) Summary-1\n(B) Summary-2\n(C) Both summary are equally consistent"
+}
